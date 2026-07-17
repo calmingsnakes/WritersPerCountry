@@ -97,4 +97,4 @@ Haz clic en cualquier marcador para ver los escritores y las obras más celebrad
 
 ---
 
-**{{ site.data.writers | size }} países** representados en este mapa. Los datos son los mismos que en las páginas de [Clásicos](/docs/clasicos.html), [Siglo XIX](/docs/siglo-19.html), [Siglo XX](/docs/siglo-20.html) y [Siglo XXI](/docs/siglo-21.html).
+**{{ site.data.writers | size }} países** representados en este mapa. Los datos son los mismos que en las páginas de [Clásicos]({{ '/docs/clasicos.html' | relative_url }}), [Siglo XIX]({{ '/docs/siglo-19.html' | relative_url }}), [Siglo XX]({{ '/docs/siglo-20.html' | relative_url }}) y [Siglo XXI]({{ '/docs/siglo-21.html' | relative_url }}).

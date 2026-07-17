@@ -12,8 +12,8 @@ permalink: /
 Una guía cultural con los escritores y las obras más celebrados de cada país del mundo, organizada por época literaria.
 {: .fs-6 .fw-300 }
 
-[Ver el mapa mundial](/mapa.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Escritores clásicos](/docs/clasicos.html){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Ver el mapa mundial]({{ '/mapa.html' | relative_url }}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Escritores clásicos]({{ '/docs/clasicos.html' | relative_url }}){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -23,11 +23,11 @@ Esta guía recorre **más de 85 países** en los seis continentes y presenta, pa
 
 | Época | Periodo | Descripción |
 |:------|:--------|:------------|
-| 📜 **[Clásicos](/docs/clasicos.html)** | Antes de 1800 | Literatura antigua, medieval y renacentista |
-| 🕯️ **[Siglo XIX](/docs/siglo-19.html)** | 1800 – 1899 | Romanticismo, realismo, naturalismo |
-| 📖 **[Siglo XX](/docs/siglo-20.html)** | 1900 – 1999 | Vanguardias, modernismo, literatura contemporánea temprana |
-| 💻 **[Siglo XXI](/docs/siglo-21.html)** | 2000 – hoy | Literatura contemporánea y actual |
-| 🗺️ **[Mapa mundial](/mapa.html)** | — | Explora los escritores por país en un mapa interactivo |
+| 📜 **[Clásicos]({{ '/docs/clasicos.html' | relative_url }})** | Antes de 1800 | Literatura antigua, medieval y renacentista |
+| 🕯️ **[Siglo XIX]({{ '/docs/siglo-19.html' | relative_url }})** | 1800 – 1899 | Romanticismo, realismo, naturalismo |
+| 📖 **[Siglo XX]({{ '/docs/siglo-20.html' | relative_url }})** | 1900 – 1999 | Vanguardias, modernismo, literatura contemporánea temprana |
+| 💻 **[Siglo XXI]({{ '/docs/siglo-21.html' | relative_url }})** | 2000 – hoy | Literatura contemporánea y actual |
+| 🗺️ **[Mapa mundial]({{ '/mapa.html' | relative_url }})** | — | Explora los escritores por país en un mapa interactivo |
 
 Usa la **barra de búsqueda** en la parte superior para encontrar rápidamente un país, un autor o una obra específica.
 
