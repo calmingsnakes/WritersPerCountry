@@ -1,0 +1,45 @@
+title: Escritores por País
+description: >-
+  Guía de los escritores y libros más celebrados de cada país del mundo,
+  organizada por época: clásicos, siglo XIX, siglo XX y siglo XXI.
+theme: just-the-docs
+
+url: ""
+baseurl: ""
+
+# Just the Docs search (built-in searchbar)
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
+
+nav_sort: case_insensitive
+heading_anchors: true
+
+color_scheme: nil
+
+aux_links:
+  "Repositorio en GitHub":
+    - "https://github.com/calmingsnakes/WritersPerCountry"
+aux_links_new_tab: true
+
+back_to_top: true
+back_to_top_text: "Volver arriba"
+
+footer_content: "Guía compilada con fines educativos y culturales. Los libros listados son una selección representativa, no exhaustiva."
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - node_modules

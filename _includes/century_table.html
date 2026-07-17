@@ -1,0 +1,15 @@
+{% assign era = include.era %}
+{% assign continents = "Europa,América del Norte,América Central y el Caribe,América del Sur,Asia,África,Oceanía" | split: "," %}
+{% for continent in continents %}
+{% assign items = site.data.writers | where: "continent", continent %}
+{% if items.size > 0 %}
+### {{ continent }}
+
+| País | Autor/a | Obra | Año |
+|:-----|:--------|:-----|:---:|
+{% for c in items %}{% assign w = c.writers[era] %}
+| **{{ c.country }}** | {% if w and w.author %}{{ w.author }}{% else %}—{% endif %} | {% if w and w.work %}*{{ w.work }}*{% else %}_Sin figura de consenso reconocida internacionalmente_{% endif %} | {% if w and w.year %}{{ w.year }}{% else %}—{% endif %} |
+{% endfor %}
+
+{% endif %}
+{% endfor %}
