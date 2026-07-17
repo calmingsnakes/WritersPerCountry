@@ -1,0 +1,16 @@
+{% assign continent = include.continent %}
+{% assign countries = site.data.writers | where: "continent", continent %}
+{% assign eras = "clasico,siglo19,siglo20,siglo21" | split: "," %}
+{% assign era_labels = "Clásico,Siglo XIX,Siglo XX,Siglo XXI" | split: "," %}
+{% for c in countries %}
+### {{ c.country }}
+
+| Época | Autor/a | Obra | Año |
+|:------|:--------|:-----|:---:|
+{% for era in eras %}{% assign works = c.writers[era] %}{% if works and works.size > 0 %}{% for w in works %}
+| {{ era_labels[forloop.parentloop.index0] }} | {{ w.author }} | *{{ w.work }}* | {{ w.year }} |
+{% endfor %}{% else %}
+| {{ era_labels[forloop.index0] }} | — | _Sin figura de consenso reconocida internacionalmente_ | — |
+{% endif %}{% endfor %}
+
+{% endfor %}

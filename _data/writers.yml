@@ -1,8 +1,8 @@
-# Fuente única de datos para todo el sitio (páginas por época y el CSV descargable).
+# Fuente única de datos para todo el sitio (páginas por continente/país y el CSV descargable).
 # Cada país tiene: continent, capital, lat/lng y writers
-# con una entrada por época: clasico (antes de 1800), siglo19, siglo20, siglo21.
+# con hasta 3 obras por época: clasico (antes de 1800), siglo19, siglo20, siglo21.
 # Cuando no existe una figura de consenso reconocida internacionalmente para
-# una época en un país, el bloque correspondiente se deja en null.
+# una época en un país, la lista correspondiente se deja vacía ([]).
 
 # ===================== EUROPA =====================
 
@@ -13,21 +13,20 @@
   lng: -3.7038
   writers:
     clasico:
-      author: "Miguel de Cervantes"
-      work: "Don Quijote de la Mancha"
-      year: "1605"
+      - {author: "Miguel de Cervantes", work: "Don Quijote de la Mancha", year: "1605"}
+      - {author: "Lope de Vega", work: "Fuenteovejuna", year: "1619"}
+      - {author: "Pedro Calderón de la Barca", work: "La vida es sueño", year: "1635"}
     siglo19:
-      author: "Benito Pérez Galdós"
-      work: "Fortunata y Jacinta"
-      year: "1887"
+      - {author: "Benito Pérez Galdós", work: "Fortunata y Jacinta", year: "1887"}
+      - {author: "Gustavo Adolfo Bécquer", work: "Rimas", year: "1871"}
+      - {author: "Leopoldo Alas \"Clarín\"", work: "La Regenta", year: "1884-1885"}
     siglo20:
-      author: "Federico García Lorca"
-      work: "Romancero gitano"
-      year: "1928"
+      - {author: "Federico García Lorca", work: "Romancero gitano", year: "1928"}
+      - {author: "Camilo José Cela", work: "La familia de Pascual Duarte", year: "1942"}
+      - {author: "Vicente Aleixandre", work: "La destrucción o el amor", year: "1935"}
     siglo21:
-      author: "Javier Marías"
-      work: "Los enamoramientos"
-      year: "2011"
+      - {author: "Javier Marías", work: "Los enamoramientos", year: "2011"}
+      - {author: "Javier Cercas", work: "Soldados de Salamina", year: "2001"}
 
 - country: "Portugal"
   continent: "Europa"
@@ -36,21 +35,18 @@
   lng: -9.1393
   writers:
     clasico:
-      author: "Luís de Camões"
-      work: "Os Lusíadas (Los Lusíadas)"
-      year: "1572"
+      - {author: "Luís de Camões", work: "Os Lusíadas (Los Lusíadas)", year: "1572"}
+      - {author: "Gil Vicente", work: "Auto da Barca do Inferno (Auto de la Barca del Infierno)", year: "1517"}
     siglo19:
-      author: "Eça de Queirós"
-      work: "Os Maias (Los Maia)"
-      year: "1888"
+      - {author: "Eça de Queirós", work: "Os Maias (Los Maia)", year: "1888"}
+      - {author: "Camilo Castelo Branco", work: "Amor de Perdição (Amor de Perdición)", year: "1862"}
     siglo20:
-      author: "Fernando Pessoa"
-      work: "Mensagem (Mensaje)"
-      year: "1934"
+      - {author: "Fernando Pessoa", work: "Mensagem (Mensaje)", year: "1934"}
+      - {author: "José Saramago", work: "Memorial do Convento (Memorial del convento)", year: "1982"}
+      - {author: "António Lobo Antunes", work: "Os Cus de Judas (Los culos de Judas)", year: "1979"}
     siglo21:
-      author: "José Saramago"
-      work: "As Intermitências da Morte (Las intermitencias de la muerte)"
-      year: "2005"
+      - {author: "José Saramago", work: "As Intermitências da Morte (Las intermitencias de la muerte)", year: "2005"}
+      - {author: "Gonçalo M. Tavares", work: "Jerusalém (Jerusalén)", year: "2005"}
 
 - country: "Francia"
   continent: "Europa"
@@ -59,21 +55,19 @@
   lng: 2.3522
   writers:
     clasico:
-      author: "Molière"
-      work: "Tartufo (Tartuffe)"
-      year: "1664"
+      - {author: "Molière", work: "Tartufo (Tartuffe)", year: "1664"}
+      - {author: "Jean Racine", work: "Fedra (Phèdre)", year: "1677"}
     siglo19:
-      author: "Victor Hugo"
-      work: "Los Miserables (Les Misérables)"
-      year: "1862"
+      - {author: "Victor Hugo", work: "Los Miserables (Les Misérables)", year: "1862"}
+      - {author: "Gustave Flaubert", work: "Madame Bovary", year: "1857"}
+      - {author: "Émile Zola", work: "Germinal", year: "1885"}
     siglo20:
-      author: "Marcel Proust"
-      work: "En busca del tiempo perdido (À la recherche du temps perdu)"
-      year: "1913-1927"
+      - {author: "Marcel Proust", work: "En busca del tiempo perdido", year: "1913-1927"}
+      - {author: "Albert Camus", work: "El extranjero (L'Étranger)", year: "1942"}
+      - {author: "Jean-Paul Sartre", work: "La náusea (La Nausée)", year: "1938"}
     siglo21:
-      author: "Michel Houellebecq"
-      work: "El mapa y el territorio (La Carte et le Territoire)"
-      year: "2010"
+      - {author: "Michel Houellebecq", work: "El mapa y el territorio", year: "2010"}
+      - {author: "Annie Ernaux", work: "Los años (Les Années)", year: "2008"}
 
 - country: "Reino Unido"
   continent: "Europa"
@@ -82,21 +76,17 @@
   lng: -0.1278
   writers:
     clasico:
-      author: "William Shakespeare"
-      work: "Hamlet"
-      year: "1600"
+      - {author: "William Shakespeare", work: "Hamlet", year: "1600"}
     siglo19:
-      author: "Charles Dickens"
-      work: "Grandes esperanzas (Great Expectations)"
-      year: "1861"
+      - {author: "Charles Dickens", work: "Grandes esperanzas", year: "1861"}
+      - {author: "Jane Austen", work: "Orgullo y prejuicio", year: "1813"}
     siglo20:
-      author: "George Orwell"
-      work: "1984"
-      year: "1949"
+      - {author: "George Orwell", work: "1984", year: "1949"}
+      - {author: "Virginia Woolf", work: "La señora Dalloway", year: "1925"}
+      - {author: "William Golding", work: "El señor de las moscas", year: "1954"}
     siglo21:
-      author: "Kazuo Ishiguro"
-      work: "Nunca me abandones (Never Let Me Go)"
-      year: "2005"
+      - {author: "Kazuo Ishiguro", work: "Nunca me abandones", year: "2005"}
+      - {author: "Hilary Mantel", work: "Wolf Hall", year: "2009"}
 
 - country: "Irlanda"
   continent: "Europa"
@@ -105,21 +95,16 @@
   lng: -6.2603
   writers:
     clasico:
-      author: "Jonathan Swift"
-      work: "Los viajes de Gulliver (Gulliver's Travels)"
-      year: "1726"
+      - {author: "Jonathan Swift", work: "Los viajes de Gulliver", year: "1726"}
     siglo19:
-      author: "Oscar Wilde"
-      work: "El retrato de Dorian Gray (The Picture of Dorian Gray)"
-      year: "1890"
+      - {author: "Oscar Wilde", work: "El retrato de Dorian Gray", year: "1890"}
+      - {author: "Bram Stoker", work: "Drácula", year: "1897"}
     siglo20:
-      author: "James Joyce"
-      work: "Ulises (Ulysses)"
-      year: "1922"
+      - {author: "James Joyce", work: "Ulises", year: "1922"}
+      - {author: "Samuel Beckett", work: "Esperando a Godot", year: "1953"}
     siglo21:
-      author: "Sally Rooney"
-      work: "Normal People (Gente normal)"
-      year: "2018"
+      - {author: "Sally Rooney", work: "Normal People", year: "2018"}
+      - {author: "John Banville", work: "El mar", year: "2005"}
 
 - country: "Alemania"
   continent: "Europa"
@@ -128,21 +113,17 @@
   lng: 13.4050
   writers:
     clasico:
-      author: "Johann Wolfgang von Goethe"
-      work: "Las cuitas del joven Werther (Die Leiden des jungen Werthers)"
-      year: "1774"
+      - {author: "Johann Wolfgang von Goethe", work: "Las cuitas del joven Werther", year: "1774"}
     siglo19:
-      author: "Hermanos Grimm"
-      work: "Cuentos de la infancia y del hogar (Kinder- und Hausmärchen)"
-      year: "1812"
+      - {author: "Hermanos Grimm", work: "Cuentos de la infancia y del hogar", year: "1812"}
+      - {author: "Heinrich Heine", work: "Buch der Lieder (Libro de canciones)", year: "1827"}
     siglo20:
-      author: "Thomas Mann"
-      work: "Los Buddenbrook (Buddenbrooks)"
-      year: "1901"
+      - {author: "Thomas Mann", work: "Los Buddenbrook", year: "1901"}
+      - {author: "Hermann Hesse", work: "El lobo estepario", year: "1927"}
+      - {author: "Günter Grass", work: "El tambor de hojalata", year: "1959"}
     siglo21:
-      author: "Herta Müller"
-      work: "Todo lo que tengo lo llevo conmigo (Atemschaukel)"
-      year: "2009"
+      - {author: "Herta Müller", work: "Todo lo que tengo lo llevo conmigo", year: "2009"}
+      - {author: "Jenny Erpenbeck", work: "Kairos", year: "2021"}
 
 - country: "Austria"
   continent: "Europa"
@@ -150,19 +131,17 @@
   lat: 48.2082
   lng: 16.3738
   writers:
-    clasico: null
+    clasico:
+      - {author: "Anónimo", work: "Cantar de los Nibelungos (Nibelungenlied)", year: "c. 1200"}
     siglo19:
-      author: "Franz Grillparzer"
-      work: "Safo (Sappho)"
-      year: "1818"
+      - {author: "Franz Grillparzer", work: "Safo (Sappho)", year: "1818"}
+      - {author: "Adalbert Stifter", work: "El verano tardío (Der Nachsommer)", year: "1857"}
     siglo20:
-      author: "Robert Musil"
-      work: "El hombre sin atributos (Der Mann ohne Eigenschaften)"
-      year: "1930-1943"
+      - {author: "Robert Musil", work: "El hombre sin atributos", year: "1930-1943"}
+      - {author: "Elias Canetti", work: "Auto de fe (Die Blendung)", year: "1935"}
+      - {author: "Elfriede Jelinek", work: "La pianista (Die Klavierspielerin)", year: "1983"}
     siglo21:
-      author: "Daniel Kehlmann"
-      work: "La medición del mundo (Die Vermessung der Welt)"
-      year: "2005"
+      - {author: "Daniel Kehlmann", work: "La medición del mundo", year: "2005"}
 
 - country: "Suiza"
   continent: "Europa"
@@ -170,19 +149,16 @@
   lat: 46.9480
   lng: 7.4474
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Johanna Spyri"
-      work: "Heidi"
-      year: "1880"
+      - {author: "Johanna Spyri", work: "Heidi", year: "1880"}
+      - {author: "Gottfried Keller", work: "La gente de Seldwyla (Die Leute von Seldwyla)", year: "1856"}
     siglo20:
-      author: "Max Frisch"
-      work: "Homo Faber"
-      year: "1957"
+      - {author: "Max Frisch", work: "Homo Faber", year: "1957"}
+      - {author: "Friedrich Dürrenmatt", work: "El juez y su verdugo (Der Richter und sein Henker)", year: "1950"}
+      - {author: "Hermann Hesse", work: "Siddhartha", year: "1922"}
     siglo21:
-      author: "Joël Dicker"
-      work: "La verdad sobre el caso Harry Quebert"
-      year: "2012"
+      - {author: "Joël Dicker", work: "La verdad sobre el caso Harry Quebert", year: "2012"}
 
 - country: "Italia"
   continent: "Europa"
@@ -191,21 +167,19 @@
   lng: 12.4964
   writers:
     clasico:
-      author: "Dante Alighieri"
-      work: "La Divina Comedia (Divina Commedia)"
-      year: "1320"
+      - {author: "Dante Alighieri", work: "La Divina Comedia", year: "1320"}
+      - {author: "Giovanni Boccaccio", work: "El Decamerón", year: "c. 1349-1353"}
+      - {author: "Francesco Petrarca", work: "Cancionero (Canzoniere)", year: "c. 1327-1368"}
     siglo19:
-      author: "Alessandro Manzoni"
-      work: "Los novios (I Promessi Sposi)"
-      year: "1827"
+      - {author: "Alessandro Manzoni", work: "Los novios", year: "1827"}
+      - {author: "Giacomo Leopardi", work: "Cantos (Canti)", year: "1816-1837"}
     siglo20:
-      author: "Umberto Eco"
-      work: "El nombre de la rosa (Il nome della rosa)"
-      year: "1980"
+      - {author: "Umberto Eco", work: "El nombre de la rosa", year: "1980"}
+      - {author: "Luigi Pirandello", work: "El difunto Matías Pascal", year: "1904"}
+      - {author: "Giuseppe Tomasi di Lampedusa", work: "El Gatopardo", year: "1958"}
     siglo21:
-      author: "Elena Ferrante"
-      work: "La amiga estupenda (L'amica geniale)"
-      year: "2011"
+      - {author: "Elena Ferrante", work: "La amiga estupenda", year: "2011"}
+      - {author: "Paolo Giordano", work: "La soledad de los números primos", year: "2008"}
 
 - country: "Grecia"
   continent: "Europa"
@@ -214,18 +188,15 @@
   lng: 23.7275
   writers:
     clasico:
-      author: "Homero"
-      work: "La Odisea"
-      year: "c. siglo VIII a.C."
+      - {author: "Homero", work: "La Odisea", year: "c. siglo VIII a.C."}
+      - {author: "Sófocles", work: "Edipo Rey", year: "c. siglo V a.C."}
     siglo19:
-      author: "Dionisio Solomós"
-      work: "Himno a la libertad (Ýmnos is tin Eleftherían)"
-      year: "1823"
+      - {author: "Dionisio Solomós", work: "Himno a la libertad", year: "1823"}
     siglo20:
-      author: "Nikos Kazantzakis"
-      work: "Zorba el griego"
-      year: "1946"
-    siglo21: null
+      - {author: "Nikos Kazantzakis", work: "Zorba el griego", year: "1946"}
+      - {author: "Giorgos Seferis", work: "Mythistorema (Novela mítica)", year: "1935"}
+      - {author: "Odysseas Elytis", work: "Axion Esti (Es digno)", year: "1959"}
+    siglo21: []
 
 - country: "Rusia"
   continent: "Europa"
@@ -234,18 +205,14 @@
   lng: 37.6173
   writers:
     clasico:
-      author: "Anónimo"
-      work: "Cantar de las huestes de Ígor (Slovo o polku Igoreve)"
-      year: "c. 1187"
+      - {author: "Anónimo", work: "Cantar de las huestes de Ígor", year: "c. 1187"}
     siglo19:
-      author: "Liev Tolstói"
-      work: "Guerra y paz"
-      year: "1869"
+      - {author: "Liev Tolstói", work: "Guerra y paz", year: "1869"}
+      - {author: "Fiódor Dostoyevski", work: "Crimen y castigo", year: "1866"}
     siglo20:
-      author: "Mijaíl Bulgákov"
-      work: "El maestro y Margarita"
-      year: "1967"
-    siglo21: null
+      - {author: "Mijaíl Bulgákov", work: "El maestro y Margarita", year: "1967"}
+      - {author: "Borís Pasternak", work: "Doctor Zhivago", year: "1957"}
+    siglo21: []
 
 - country: "Ucrania"
   continent: "Europa"
@@ -253,19 +220,13 @@
   lat: 50.4501
   lng: 30.5234
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Taras Shevchenko"
-      work: "Kobzar"
-      year: "1840"
+      - {author: "Taras Shevchenko", work: "Kobzar", year: "1840"}
     siglo20:
-      author: "Lesia Ucrainka"
-      work: "La canción del bosque (Lisova pisnya)"
-      year: "1911"
+      - {author: "Lesia Ucrainka", work: "La canción del bosque", year: "1911"}
     siglo21:
-      author: "Serhiy Zhadan"
-      work: "Voroshilovgrad"
-      year: "2010"
+      - {author: "Serhiy Zhadan", work: "Voroshilovgrad", year: "2010"}
 
 - country: "Polonia"
   continent: "Europa"
@@ -274,21 +235,18 @@
   lng: 21.0122
   writers:
     clasico:
-      author: "Jan Kochanowski"
-      work: "Trenos (Treny)"
-      year: "1580"
+      - {author: "Jan Kochanowski", work: "Trenos (Treny)", year: "1580"}
     siglo19:
-      author: "Adam Mickiewicz"
-      work: "Pan Tadeusz"
-      year: "1834"
+      - {author: "Adam Mickiewicz", work: "Pan Tadeusz", year: "1834"}
+      - {author: "Bolesław Prus", work: "La muñeca (Lalka)", year: "1890"}
+      - {author: "Henryk Sienkiewicz", work: "Quo Vadis", year: "1896"}
     siglo20:
-      author: "Czesław Miłosz"
-      work: "El pensamiento cautivo (Zniewolony umysł)"
-      year: "1953"
+      - {author: "Czesław Miłosz", work: "El pensamiento cautivo", year: "1953"}
+      - {author: "Witold Gombrowicz", work: "Ferdydurke", year: "1937"}
+      - {author: "Bruno Schulz", work: "Las tiendas de color canela", year: "1934"}
     siglo21:
-      author: "Olga Tokarczuk"
-      work: "Los errantes (Bieguni)"
-      year: "2007"
+      - {author: "Olga Tokarczuk", work: "Los errantes (Bieguni)", year: "2007"}
+      - {author: "Olga Tokarczuk", work: "Los libros de Jakub", year: "2014"}
 
 - country: "República Checa"
   continent: "Europa"
@@ -296,19 +254,16 @@
   lat: 50.0755
   lng: 14.4378
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Božena Němcová"
-      work: "La abuela (Babička)"
-      year: "1855"
+      - {author: "Božena Němcová", work: "La abuela (Babička)", year: "1855"}
+      - {author: "Karel Hynek Mácha", work: "Mayo (Máj)", year: "1836"}
     siglo20:
-      author: "Franz Kafka"
-      work: "La metamorfosis (Die Verwandlung)"
-      year: "1915"
+      - {author: "Franz Kafka", work: "La metamorfosis", year: "1915"}
+      - {author: "Jaroslav Hašek", work: "Las aventuras del valeroso soldado Švejk", year: "1921-1923"}
+      - {author: "Karel Čapek", work: "R.U.R.", year: "1920"}
     siglo21:
-      author: "Milan Kundera"
-      work: "La ignorancia (L'Ignorance)"
-      year: "2000"
+      - {author: "Milan Kundera", work: "La ignorancia (L'Ignorance)", year: "2000"}
 
 - country: "Eslovaquia"
   continent: "Europa"
@@ -316,19 +271,13 @@
   lat: 48.1486
   lng: 17.1077
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Pavol Országh Hviezdoslav"
-      work: "Hájnikova žena (La mujer del guardabosques)"
-      year: "1886"
+      - {author: "Pavol Országh Hviezdoslav", work: "Hájnikova žena (La mujer del guardabosques)", year: "1886"}
     siglo20:
-      author: "Milo Urban"
-      work: "Živý bič (El látigo viviente)"
-      year: "1927"
+      - {author: "Milo Urban", work: "Živý bič (El látigo viviente)", year: "1927"}
     siglo21:
-      author: "Pavel Vilikovský"
-      work: "Prvá a posledná láska (El primer y el último amor)"
-      year: "2013"
+      - {author: "Pavel Vilikovský", work: "Prvá a posledná láska (El primer y el último amor)", year: "2013"}
 
 - country: "Hungría"
   continent: "Europa"
@@ -337,21 +286,16 @@
   lng: 19.0402
   writers:
     clasico:
-      author: "Bálint Balassi"
-      work: "Egy katonaének (Canción de un soldado)"
-      year: "1589"
+      - {author: "Bálint Balassi", work: "Egy katonaének (Canción de un soldado)", year: "1589"}
     siglo19:
-      author: "Sándor Petőfi"
-      work: "János vitéz (Juan el Valiente)"
-      year: "1845"
+      - {author: "Sándor Petőfi", work: "János vitéz (Juan el Valiente)", year: "1845"}
+      - {author: "Mór Jókai", work: "El hombre de oro (Az arany ember)", year: "1872"}
     siglo20:
-      author: "Imre Kertész"
-      work: "Sin destino (Sorstalanság)"
-      year: "1975"
+      - {author: "Imre Kertész", work: "Sin destino (Sorstalanság)", year: "1975"}
+      - {author: "Sándor Márai", work: "El último encuentro (A gyertyák csonkig égnek)", year: "1942"}
+      - {author: "Magda Szabó", work: "La puerta (Az ajtó)", year: "1987"}
     siglo21:
-      author: "László Krasznahorkai"
-      work: "El regreso del barón Wenckheim (Báró Wenckheim hazatér)"
-      year: "2016"
+      - {author: "László Krasznahorkai", work: "El regreso del barón Wenckheim", year: "2016"}
 
 - country: "Rumania"
   continent: "Europa"
@@ -360,21 +304,14 @@
   lng: 26.1025
   writers:
     clasico:
-      author: "Dimitrie Cantemir"
-      work: "Historia jeroglífica (Istoria ieroglifică)"
-      year: "1705"
+      - {author: "Dimitrie Cantemir", work: "Historia jeroglífica (Istoria ieroglifică)", year: "1705"}
     siglo19:
-      author: "Mihai Eminescu"
-      work: "El Lucero (Luceafărul)"
-      year: "1883"
+      - {author: "Mihai Eminescu", work: "El Lucero (Luceafărul)", year: "1883"}
     siglo20:
-      author: "Marin Preda"
-      work: "La familia Moromete (Moromeții)"
-      year: "1955"
+      - {author: "Marin Preda", work: "La familia Moromete (Moromeții)", year: "1955"}
+      - {author: "Mircea Eliade", work: "Maitreyi", year: "1933"}
     siglo21:
-      author: "Mircea Cărtărescu"
-      work: "Solenoid"
-      year: "2015"
+      - {author: "Mircea Cărtărescu", work: "Solenoid", year: "2015"}
 
 - country: "Bulgaria"
   continent: "Europa"
@@ -383,21 +320,14 @@
   lng: 23.3219
   writers:
     clasico:
-      author: "Paisiy Hilendarski"
-      work: "Historia eslavobúlgara (Istoriya Slavyanobolgarska)"
-      year: "1762"
+      - {author: "Paisiy Hilendarski", work: "Historia eslavobúlgara", year: "1762"}
     siglo19:
-      author: "Ivan Vazov"
-      work: "Bajo el yugo (Pod igoto)"
-      year: "1894"
+      - {author: "Ivan Vazov", work: "Bajo el yugo (Pod igoto)", year: "1894"}
     siglo20:
-      author: "Elin Pelin"
-      work: "La familia Gerak (Geratsite)"
-      year: "1911"
+      - {author: "Elin Pelin", work: "La familia Gerak (Geratsite)", year: "1911"}
     siglo21:
-      author: "Georgi Gospodinov"
-      work: "Refugio del tiempo (Vremeubezhishte)"
-      year: "2020"
+      - {author: "Georgi Gospodinov", work: "Refugio del tiempo (Vremeubezhishte)", year: "2020"}
+      - {author: "Georgi Gospodinov", work: "Física de la tristeza", year: "2011"}
 
 - country: "Serbia"
   continent: "Europa"
@@ -406,18 +336,15 @@
   lng: 20.4489
   writers:
     clasico:
-      author: "Dositej Obradović"
-      work: "Vida y aventuras (Život i priključenija)"
-      year: "1783"
+      - {author: "Dositej Obradović", work: "Vida y aventuras (Život i priključenija)", year: "1783"}
     siglo19:
-      author: "Petar II Petrović Njegoš"
-      work: "La corona de montaña (Gorski vijenac)"
-      year: "1847"
+      - {author: "Petar II Petrović Njegoš", work: "La corona de montaña (Gorski vijenac)", year: "1847"}
     siglo20:
-      author: "Ivo Andrić"
-      work: "El puente sobre el Drina (Na Drini ćuprija)"
-      year: "1945"
-    siglo21: null
+      - {author: "Ivo Andrić", work: "El puente sobre el Drina", year: "1945"}
+      - {author: "Danilo Kiš", work: "Tumba para Boris Davidovich", year: "1976"}
+      - {author: "Milorad Pavić", work: "Diccionario jázaro", year: "1984"}
+    siglo21:
+      - {author: "Lana Bastašić", work: "Atrapa la liebre (Uhvati zeca)", year: "2018"}
 
 - country: "Croacia"
   continent: "Europa"
@@ -426,21 +353,15 @@
   lng: 15.9819
   writers:
     clasico:
-      author: "Marin Držić"
-      work: "Dundo Maroje"
-      year: "c. 1551"
+      - {author: "Marin Držić", work: "Dundo Maroje", year: "c. 1551"}
+      - {author: "Marko Marulić", work: "Judita", year: "1501"}
     siglo19:
-      author: "August Šenoa"
-      work: "El oro del orfebre (Zlatarovo zlato)"
-      year: "1871"
+      - {author: "August Šenoa", work: "El oro del orfebre (Zlatarovo zlato)", year: "1871"}
+      - {author: "Ivan Mažuranić", work: "La muerte de Smail-aga Čengić", year: "1846"}
     siglo20:
-      author: "Miroslav Krleža"
-      work: "El regreso de Filip Latinovicz (Povratak Filipa Latinovicza)"
-      year: "1932"
+      - {author: "Miroslav Krleža", work: "El regreso de Filip Latinovicz", year: "1932"}
     siglo21:
-      author: "Dubravka Ugrešić"
-      work: "El Ministerio del Dolor (Ministarstvo boli)"
-      year: "2004"
+      - {author: "Dubravka Ugrešić", work: "El Ministerio del Dolor", year: "2004"}
 
 - country: "Países Bajos"
   continent: "Europa"
@@ -449,21 +370,13 @@
   lng: 4.9041
   writers:
     clasico:
-      author: "Joost van den Vondel"
-      work: "Gijsbrecht van Aemstel"
-      year: "1637"
+      - {author: "Joost van den Vondel", work: "Gijsbrecht van Aemstel", year: "1637"}
     siglo19:
-      author: "Multatuli (Eduard Douwes Dekker)"
-      work: "Max Havelaar"
-      year: "1860"
+      - {author: "Multatuli (Eduard Douwes Dekker)", work: "Max Havelaar", year: "1860"}
     siglo20:
-      author: "Harry Mulisch"
-      work: "El descubrimiento del cielo (De ontdekking van de hemel)"
-      year: "1992"
+      - {author: "Harry Mulisch", work: "El descubrimiento del cielo", year: "1992"}
     siglo21:
-      author: "Marieke Lucas Rijneveld"
-      work: "La inquietud de la noche (De avond is ongemak)"
-      year: "2018"
+      - {author: "Marieke Lucas Rijneveld", work: "La inquietud de la noche", year: "2018"}
 
 - country: "Bélgica"
   continent: "Europa"
@@ -471,19 +384,13 @@
   lat: 50.8503
   lng: 4.3517
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Charles De Coster"
-      work: "La leyenda de Ulenspiegel (La Légende d'Ulenspiegel)"
-      year: "1867"
+      - {author: "Charles De Coster", work: "La leyenda de Ulenspiegel", year: "1867"}
     siglo20:
-      author: "Georges Simenon"
-      work: "Pietr, el Letón (Pietr-le-Letton)"
-      year: "1931"
+      - {author: "Georges Simenon", work: "Pietr, el Letón", year: "1931"}
     siglo21:
-      author: "Amélie Nothomb"
-      work: "Ni de Eva ni de Adán (Ni d'Ève ni d'Adam)"
-      year: "2007"
+      - {author: "Amélie Nothomb", work: "Ni de Eva ni de Adán", year: "2007"}
 
 - country: "Suecia"
   continent: "Europa"
@@ -492,21 +399,15 @@
   lng: 18.0686
   writers:
     clasico:
-      author: "Carl Michael Bellman"
-      work: "Las epístolas de Fredman (Fredmans epistlar)"
-      year: "1790"
+      - {author: "Carl Michael Bellman", work: "Las epístolas de Fredman", year: "1790"}
     siglo19:
-      author: "August Strindberg"
-      work: "El cuarto rojo (Röda rummet)"
-      year: "1879"
+      - {author: "August Strindberg", work: "El cuarto rojo (Röda rummet)", year: "1879"}
+      - {author: "Verner von Heidenstam", work: "Los Carolinos (Karolinerna)", year: "1897"}
     siglo20:
-      author: "Selma Lagerlöf"
-      work: "El maravilloso viaje de Nils Holgersson"
-      year: "1906"
+      - {author: "Selma Lagerlöf", work: "El maravilloso viaje de Nils Holgersson", year: "1906"}
+      - {author: "Pär Lagerkvist", work: "Barrabás", year: "1950"}
     siglo21:
-      author: "Stieg Larsson"
-      work: "Los hombres que no amaban a las mujeres"
-      year: "2005"
+      - {author: "Stieg Larsson", work: "Los hombres que no amaban a las mujeres", year: "2005"}
 
 - country: "Noruega"
   continent: "Europa"
@@ -514,19 +415,13 @@
   lat: 59.9139
   lng: 10.7522
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Henrik Ibsen"
-      work: "Casa de muñecas (Et dukkehjem)"
-      year: "1879"
+      - {author: "Henrik Ibsen", work: "Casa de muñecas (Et dukkehjem)", year: "1879"}
     siglo20:
-      author: "Knut Hamsun"
-      work: "Bendición de la tierra (Markens Grøde)"
-      year: "1917"
+      - {author: "Knut Hamsun", work: "Bendición de la tierra (Markens Grøde)", year: "1917"}
     siglo21:
-      author: "Karl Ove Knausgård"
-      work: "Mi lucha (Min kamp)"
-      year: "2009"
+      - {author: "Karl Ove Knausgård", work: "Mi lucha (Min kamp)", year: "2009"}
 
 - country: "Dinamarca"
   continent: "Europa"
@@ -535,21 +430,18 @@
   lng: 12.5683
   writers:
     clasico:
-      author: "Ludvig Holberg"
-      work: "El viaje subterráneo de Niels Klim"
-      year: "1741"
+      - {author: "Ludvig Holberg", work: "El viaje subterráneo de Niels Klim", year: "1741"}
+      - {author: "Ludvig Holberg", work: "Peder Paars", year: "1719"}
     siglo19:
-      author: "Hans Christian Andersen"
-      work: "Cuentos de hadas"
-      year: "1835"
+      - {author: "Hans Christian Andersen", work: "Cuentos de hadas", year: "1835"}
+      - {author: "Søren Kierkegaard", work: "O lo uno o lo otro (Enten-Eller)", year: "1843"}
     siglo20:
-      author: "Karen Blixen (Isak Dinesen)"
-      work: "Memorias de África (Den afrikanske Farm)"
-      year: "1937"
+      - {author: "Karen Blixen (Isak Dinesen)", work: "Memorias de África", year: "1937"}
+      - {author: "Henrik Pontoppidan", work: "La fortuna de Per (Lykke-Per)", year: "1898-1904"}
+      - {author: "Johannes V. Jensen", work: "La larga marcha (Den lange Rejse)", year: "1908-1922"}
     siglo21:
-      author: "Jussi Adler-Olsen"
-      work: "La mujer que arañaba las paredes (Kvinden i buret)"
-      year: "2007"
+      - {author: "Jussi Adler-Olsen", work: "La mujer que arañaba las paredes", year: "2007"}
+      - {author: "Solvej Balle", work: "El cálculo del volumen I", year: "2020"}
 
 - country: "Finlandia"
   continent: "Europa"
@@ -557,19 +449,15 @@
   lat: 60.1699
   lng: 24.9384
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Elias Lönnrot"
-      work: "Kalevala"
-      year: "1835"
+      - {author: "Elias Lönnrot", work: "Kalevala", year: "1835"}
+      - {author: "Aleksis Kivi", work: "Los siete hermanos (Seitsemän veljestä)", year: "1870"}
     siglo20:
-      author: "Väinö Linna"
-      work: "El soldado desconocido (Tuntematon sotilas)"
-      year: "1954"
+      - {author: "Väinö Linna", work: "El soldado desconocido (Tuntematon sotilas)", year: "1954"}
+      - {author: "Mika Waltari", work: "Sinuhé, el egipcio", year: "1945"}
     siglo21:
-      author: "Sofi Oksanen"
-      work: "Purga (Puhdistus)"
-      year: "2008"
+      - {author: "Sofi Oksanen", work: "Purga (Puhdistus)", year: "2008"}
 
 - country: "Islandia"
   continent: "Europa"
@@ -578,21 +466,16 @@
   lng: -21.9426
   writers:
     clasico:
-      author: "Anónimo"
-      work: "Saga de Njál (Njáls saga)"
-      year: "c. 1280"
+      - {author: "Anónimo", work: "Saga de Njál (Njáls saga)", year: "c. 1280"}
+      - {author: "Snorri Sturluson", work: "Heimskringla / Edda menor", year: "c. 1220"}
     siglo19:
-      author: "Jónas Hallgrímsson"
-      work: "Ísland (poema)"
-      year: "1835"
+      - {author: "Jónas Hallgrímsson", work: "Ísland (poema)", year: "1835"}
     siglo20:
-      author: "Halldór Laxness"
-      work: "Gente independiente (Sjálfstætt fólk)"
-      year: "1934"
+      - {author: "Halldór Laxness", work: "Gente independiente (Sjálfstætt fólk)", year: "1934"}
+      - {author: "Halldór Laxness", work: "Salka Valka", year: "1931-1932"}
     siglo21:
-      author: "Arnaldur Indriðason"
-      work: "La mujer de verde (Mýrin)"
-      year: "2000"
+      - {author: "Arnaldur Indriðason", work: "La mujer de verde (Mýrin)", year: "2000"}
+      - {author: "Sjón", work: "El zorro ártico (Skugga-Baldur)", year: "2003"}
 
 - country: "Albania"
   continent: "Europa"
@@ -600,19 +483,14 @@
   lat: 41.3275
   lng: 19.8187
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Naim Frashëri"
-      work: "El ganado y la agricultura (Bagëti e bujqësia)"
-      year: "1886"
+      - {author: "Naim Frashëri", work: "El ganado y la agricultura (Bagëti e bujqësia)", year: "1886"}
     siglo20:
-      author: "Ismail Kadare"
-      work: "El general del ejército muerto (Gjenerali i ushtrisë së vdekur)"
-      year: "1963"
+      - {author: "Ismail Kadare", work: "El general del ejército muerto", year: "1963"}
+      - {author: "Ismail Kadare", work: "Crónica en piedra (Kronikë në gur)", year: "1971"}
     siglo21:
-      author: "Ismail Kadare"
-      work: "El sucesor (Pasardhësi)"
-      year: "2003"
+      - {author: "Ismail Kadare", work: "El sucesor (Pasardhësi)", year: "2003"}
 
 # ===================== AMÉRICA DEL NORTE =====================
 
@@ -623,21 +501,21 @@
   lng: -77.0369
   writers:
     clasico:
-      author: "Phillis Wheatley"
-      work: "Poems on Various Subjects, Religious and Moral"
-      year: "1773"
+      - {author: "Phillis Wheatley", work: "Poems on Various Subjects, Religious and Moral", year: "1773"}
+      - {author: "Anne Bradstreet", work: "The Tenth Muse Lately Sprung Up in America", year: "1650"}
+      - {author: "Benjamin Franklin", work: "Autobiografía", year: "1793"}
     siglo19:
-      author: "Mark Twain"
-      work: "Las aventuras de Huckleberry Finn"
-      year: "1884"
+      - {author: "Mark Twain", work: "Las aventuras de Huckleberry Finn", year: "1884"}
+      - {author: "Nathaniel Hawthorne", work: "La letra escarlata", year: "1850"}
+      - {author: "Herman Melville", work: "Moby-Dick", year: "1851"}
     siglo20:
-      author: "F. Scott Fitzgerald"
-      work: "El gran Gatsby"
-      year: "1925"
+      - {author: "F. Scott Fitzgerald", work: "El gran Gatsby", year: "1925"}
+      - {author: "Harper Lee", work: "Matar a un ruiseñor", year: "1960"}
+      - {author: "Toni Morrison", work: "Beloved", year: "1987"}
     siglo21:
-      author: "George Saunders"
-      work: "Lincoln en el Bardo"
-      year: "2017"
+      - {author: "George Saunders", work: "Lincoln en el Bardo", year: "2017"}
+      - {author: "Colson Whitehead", work: "El ferrocarril subterráneo", year: "2016"}
+      - {author: "Anthony Doerr", work: "Toda la luz que no podemos ver", year: "2014"}
 
 - country: "Canadá"
   continent: "América del Norte"
@@ -645,19 +523,19 @@
   lat: 45.4215
   lng: -75.6972
   writers:
-    clasico: null
+    clasico:
+      - {author: "Frances Brooke", work: "The History of Emily Montague", year: "1769"}
     siglo19:
-      author: "Susanna Moodie"
-      work: "Roughing It in the Bush"
-      year: "1852"
+      - {author: "Susanna Moodie", work: "Roughing It in the Bush", year: "1852"}
+      - {author: "Catharine Parr Traill", work: "The Backwoods of Canada", year: "1836"}
     siglo20:
-      author: "Margaret Atwood"
-      work: "El cuento de la criada (The Handmaid's Tale)"
-      year: "1985"
+      - {author: "Margaret Atwood", work: "El cuento de la criada", year: "1985"}
+      - {author: "Michael Ondaatje", work: "El paciente inglés", year: "1992"}
+      - {author: "Lucy Maud Montgomery", work: "Ana de las Tejas Verdes", year: "1908"}
     siglo21:
-      author: "Yann Martel"
-      work: "Vida de Pi"
-      year: "2001"
+      - {author: "Yann Martel", work: "Vida de Pi", year: "2001"}
+      - {author: "Margaret Atwood", work: "Los testamentos", year: "2019"}
+      - {author: "Alice Munro", work: "Dear Life", year: "2012"}
 
 - country: "México"
   continent: "América del Norte"
@@ -666,21 +544,21 @@
   lng: -99.1332
   writers:
     clasico:
-      author: "Sor Juana Inés de la Cruz"
-      work: "Primero sueño"
-      year: "1692"
+      - {author: "Sor Juana Inés de la Cruz", work: "Primero sueño", year: "1692"}
+      - {author: "Bernal Díaz del Castillo", work: "Historia verdadera de la conquista de la Nueva España", year: "1568"}
+      - {author: "Carlos de Sigüenza y Góngora", work: "Infortunios de Alonso Ramírez", year: "1690"}
     siglo19:
-      author: "Ignacio Manuel Altamirano"
-      work: "Clemencia"
-      year: "1869"
+      - {author: "Ignacio Manuel Altamirano", work: "Clemencia", year: "1869"}
+      - {author: "José Joaquín Fernández de Lizardi", work: "El Periquillo Sarniento", year: "1816"}
+      - {author: "Manuel Payno", work: "Los bandidos de Río Frío", year: "1891"}
     siglo20:
-      author: "Juan Rulfo"
-      work: "Pedro Páramo"
-      year: "1955"
+      - {author: "Juan Rulfo", work: "Pedro Páramo", year: "1955"}
+      - {author: "Mariano Azuela", work: "Los de abajo", year: "1915"}
+      - {author: "Carlos Fuentes", work: "La muerte de Artemio Cruz", year: "1962"}
     siglo21:
-      author: "Valeria Luiselli"
-      work: "Los ingrávidos"
-      year: "2011"
+      - {author: "Valeria Luiselli", work: "Los ingrávidos", year: "2011"}
+      - {author: "Fernanda Melchor", work: "Temporada de huracanes", year: "2017"}
+      - {author: "Yuri Herrera", work: "Señales que precederán al fin del mundo", year: "2009"}
 
 # ============ AMÉRICA CENTRAL Y EL CARIBE ============
 
@@ -691,21 +569,18 @@
   lng: -90.5069
   writers:
     clasico:
-      author: "Rafael Landívar"
-      work: "Rusticatio Mexicana"
-      year: "1781"
+      - {author: "Rafael Landívar", work: "Rusticatio Mexicana", year: "1781"}
+      - {author: "Francisco Antonio de Fuentes y Guzmán", work: "Recordación Florida", year: "1690"}
     siglo19:
-      author: "José Milla y Vidaurre"
-      work: "La hija del Adelantado"
-      year: "1866"
+      - {author: "José Milla y Vidaurre", work: "La hija del Adelantado", year: "1866"}
+      - {author: "José Milla y Vidaurre", work: "El visitador", year: "1868"}
     siglo20:
-      author: "Miguel Ángel Asturias"
-      work: "El Señor Presidente"
-      year: "1946"
+      - {author: "Miguel Ángel Asturias", work: "El Señor Presidente", year: "1946"}
+      - {author: "Miguel Ángel Asturias", work: "Hombres de maíz", year: "1949"}
+      - {author: "Augusto Monterroso", work: "Obras completas (y otros cuentos)", year: "1959"}
     siglo21:
-      author: "Eduardo Halfon"
-      work: "El boxeador polaco"
-      year: "2008"
+      - {author: "Eduardo Halfon", work: "El boxeador polaco", year: "2008"}
+      - {author: "Rodrigo Rey Rosa", work: "El material humano", year: "2009"}
 
 - country: "Nicaragua"
   continent: "América Central y el Caribe"
@@ -713,19 +588,15 @@
   lat: 12.1150
   lng: -86.2362
   writers:
-    clasico: null
+    clasico:
+      - {author: "Anónimo", work: "El Güegüense (o Macho Ratón)", year: "c. 1650"}
     siglo19:
-      author: "Rubén Darío"
-      work: "Azul..."
-      year: "1888"
+      - {author: "Rubén Darío", work: "Azul...", year: "1888"}
     siglo20:
-      author: "Ernesto Cardenal"
-      work: "Hora 0"
-      year: "1960"
+      - {author: "Ernesto Cardenal", work: "Hora 0", year: "1960"}
+      - {author: "Sergio Ramírez", work: "Margarita, está linda la mar", year: "1998"}
     siglo21:
-      author: "Gioconda Belli"
-      work: "El país bajo mi piel"
-      year: "2001"
+      - {author: "Gioconda Belli", work: "El país bajo mi piel", year: "2001"}
 
 - country: "Costa Rica"
   continent: "América Central y el Caribe"
@@ -733,13 +604,11 @@
   lat: 9.9281
   lng: -84.0907
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Carlos Luis Fallas"
-      work: "Mamita Yunai"
-      year: "1941"
-    siglo21: null
+      - {author: "Carlos Luis Fallas", work: "Mamita Yunai", year: "1941"}
+    siglo21: []
 
 - country: "Cuba"
   continent: "América Central y el Caribe"
@@ -748,21 +617,16 @@
   lng: -82.3666
   writers:
     clasico:
-      author: "Silvestre de Balboa"
-      work: "Espejo de paciencia"
-      year: "1608"
+      - {author: "Silvestre de Balboa", work: "Espejo de paciencia", year: "1608"}
     siglo19:
-      author: "José Martí"
-      work: "Versos sencillos"
-      year: "1891"
+      - {author: "José Martí", work: "Versos sencillos", year: "1891"}
+      - {author: "Cirilo Villaverde", work: "Cecilia Valdés", year: "1882"}
     siglo20:
-      author: "Alejo Carpentier"
-      work: "El reino de este mundo"
-      year: "1949"
+      - {author: "Alejo Carpentier", work: "El reino de este mundo", year: "1949"}
+      - {author: "José Lezama Lima", work: "Paradiso", year: "1966"}
+      - {author: "Guillermo Cabrera Infante", work: "Tres tristes tigres", year: "1967"}
     siglo21:
-      author: "Leonardo Padura"
-      work: "El hombre que amaba a los perros"
-      year: "2009"
+      - {author: "Leonardo Padura", work: "El hombre que amaba a los perros", year: "2009"}
 
 - country: "República Dominicana"
   continent: "América Central y el Caribe"
@@ -770,19 +634,15 @@
   lat: 18.4861
   lng: -69.9312
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Manuel de Jesús Galván"
-      work: "Enriquillo"
-      year: "1882"
+      - {author: "Manuel de Jesús Galván", work: "Enriquillo", year: "1882"}
     siglo20:
-      author: "Juan Bosch"
-      work: "La Mañosa"
-      year: "1936"
+      - {author: "Juan Bosch", work: "La Mañosa", year: "1936"}
+      - {author: "Pedro Mir", work: "Hay un país en el mundo", year: "1949"}
     siglo21:
-      author: "Junot Díaz"
-      work: "La maravillosa vida breve de Óscar Wao"
-      year: "2007"
+      - {author: "Junot Díaz", work: "La maravillosa vida breve de Óscar Wao", year: "2007"}
+      - {author: "Rita Indiana", work: "La mucama de Omicunlé", year: "2015"}
 
 - country: "Puerto Rico"
   continent: "América Central y el Caribe"
@@ -790,19 +650,14 @@
   lat: 18.4655
   lng: -66.1057
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Manuel Zeno Gandía"
-      work: "La Charca"
-      year: "1894"
+      - {author: "Manuel Zeno Gandía", work: "La Charca", year: "1894"}
     siglo20:
-      author: "Luis Rafael Sánchez"
-      work: "La guaracha del Macho Camacho"
-      year: "1976"
+      - {author: "Luis Rafael Sánchez", work: "La guaracha del Macho Camacho", year: "1976"}
+      - {author: "Rosario Ferré", work: "Papeles de Pandora", year: "1976"}
     siglo21:
-      author: "Eduardo Lalo"
-      work: "Simone"
-      year: "2011"
+      - {author: "Eduardo Lalo", work: "Simone", year: "2011"}
 
 - country: "Haití"
   continent: "América Central y el Caribe"
@@ -810,19 +665,15 @@
   lat: 18.5944
   lng: -72.3074
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Émeric Bergeaud"
-      work: "Stella"
-      year: "1859"
+      - {author: "Émeric Bergeaud", work: "Stella", year: "1859"}
     siglo20:
-      author: "Jacques Roumain"
-      work: "Gobernadores del rocío (Gouverneurs de la rosée)"
-      year: "1944"
+      - {author: "Jacques Roumain", work: "Gobernadores del rocío", year: "1944"}
+      - {author: "Jacques Stephen Alexis", work: "Compère Général Soleil", year: "1955"}
     siglo21:
-      author: "Dany Laferrière"
-      work: "El enigma del retorno"
-      year: "2009"
+      - {author: "Dany Laferrière", work: "El enigma del retorno", year: "2009"}
+      - {author: "Edwidge Danticat", work: "Hermano, me muero (Brother, I'm Dying)", year: "2007"}
 
 # ===================== AMÉRICA DEL SUR =====================
 
@@ -832,19 +683,18 @@
   lat: -34.6037
   lng: -58.3816
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "José Hernández"
-      work: "Martín Fierro"
-      year: "1872"
+      - {author: "José Hernández", work: "Martín Fierro", year: "1872"}
+      - {author: "Domingo Faustino Sarmiento", work: "Facundo (Civilización y barbarie)", year: "1845"}
     siglo20:
-      author: "Jorge Luis Borges"
-      work: "Ficciones"
-      year: "1944"
+      - {author: "Jorge Luis Borges", work: "Ficciones", year: "1944"}
+      - {author: "Julio Cortázar", work: "Rayuela", year: "1963"}
+      - {author: "Ernesto Sábato", work: "El túnel", year: "1948"}
     siglo21:
-      author: "Samanta Schweblin"
-      work: "Distancia de rescate"
-      year: "2014"
+      - {author: "Samanta Schweblin", work: "Distancia de rescate", year: "2014"}
+      - {author: "Mariana Enríquez", work: "Nuestra parte de noche", year: "2019"}
+      - {author: "Pedro Mairal", work: "La uruguaya", year: "2016"}
 
 - country: "Chile"
   continent: "América del Sur"
@@ -853,21 +703,16 @@
   lng: -70.6693
   writers:
     clasico:
-      author: "Alonso de Ercilla"
-      work: "La Araucana"
-      year: "1569"
+      - {author: "Alonso de Ercilla", work: "La Araucana", year: "1569"}
     siglo19:
-      author: "Alberto Blest Gana"
-      work: "Martín Rivas"
-      year: "1862"
+      - {author: "Alberto Blest Gana", work: "Martín Rivas", year: "1862"}
     siglo20:
-      author: "Pablo Neruda"
-      work: "Veinte poemas de amor y una canción desesperada"
-      year: "1924"
+      - {author: "Pablo Neruda", work: "Veinte poemas de amor y una canción desesperada", year: "1924"}
+      - {author: "Gabriela Mistral", work: "Desolación", year: "1922"}
+      - {author: "José Donoso", work: "El obsceno pájaro de la noche", year: "1970"}
     siglo21:
-      author: "Roberto Bolaño"
-      work: "2666"
-      year: "2004"
+      - {author: "Roberto Bolaño", work: "2666", year: "2004"}
+      - {author: "Alejandro Zambra", work: "Bonsái", year: "2006"}
 
 - country: "Uruguay"
   continent: "América del Sur"
@@ -875,16 +720,14 @@
   lat: -34.9011
   lng: -56.1645
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Juan Zorrilla de San Martín"
-      work: "Tabaré"
-      year: "1888"
+      - {author: "Juan Zorrilla de San Martín", work: "Tabaré", year: "1888"}
     siglo20:
-      author: "Juan Carlos Onetti"
-      work: "La vida breve"
-      year: "1950"
-    siglo21: null
+      - {author: "Juan Carlos Onetti", work: "La vida breve", year: "1950"}
+      - {author: "Horacio Quiroga", work: "Cuentos de amor de locura y de muerte", year: "1917"}
+    siglo21:
+      - {author: "Fernanda Trías", work: "Mugre rosa", year: "2020"}
 
 - country: "Brasil"
   continent: "América del Sur"
@@ -892,16 +735,16 @@
   lat: -15.7939
   lng: -47.8828
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Machado de Assis"
-      work: "Dom Casmurro"
-      year: "1899"
+      - {author: "Machado de Assis", work: "Dom Casmurro", year: "1899"}
+      - {author: "Machado de Assis", work: "Memórias Póstumas de Brás Cubas", year: "1881"}
     siglo20:
-      author: "João Guimarães Rosa"
-      work: "Gran Sertón: Veredas (Grande Sertão: Veredas)"
-      year: "1956"
-    siglo21: null
+      - {author: "João Guimarães Rosa", work: "Gran Sertón: Veredas", year: "1956"}
+      - {author: "Jorge Amado", work: "Doña Flor y sus dos maridos", year: "1966"}
+      - {author: "Clarice Lispector", work: "La hora de la estrella", year: "1977"}
+    siglo21:
+      - {author: "Itamar Vieira Junior", work: "Torto Arado", year: "2019"}
 
 - country: "Perú"
   continent: "América del Sur"
@@ -910,21 +753,15 @@
   lng: -77.0428
   writers:
     clasico:
-      author: "Inca Garcilaso de la Vega"
-      work: "Comentarios Reales de los Incas"
-      year: "1609"
+      - {author: "Inca Garcilaso de la Vega", work: "Comentarios Reales de los Incas", year: "1609"}
     siglo19:
-      author: "Ricardo Palma"
-      work: "Tradiciones Peruanas"
-      year: "1872"
+      - {author: "Ricardo Palma", work: "Tradiciones Peruanas", year: "1872"}
     siglo20:
-      author: "Mario Vargas Llosa"
-      work: "La ciudad y los perros"
-      year: "1963"
+      - {author: "Mario Vargas Llosa", work: "La ciudad y los perros", year: "1963"}
+      - {author: "Mario Vargas Llosa", work: "Conversación en La Catedral", year: "1969"}
+      - {author: "José María Arguedas", work: "Los ríos profundos", year: "1958"}
     siglo21:
-      author: "Santiago Roncagliolo"
-      work: "Abril rojo"
-      year: "2006"
+      - {author: "Santiago Roncagliolo", work: "Abril rojo", year: "2006"}
 
 - country: "Colombia"
   continent: "América del Sur"
@@ -932,19 +769,16 @@
   lat: 4.7110
   lng: -74.0721
   writers:
-    clasico: null
+    clasico:
+      - {author: "Juan Rodríguez Freyle", work: "El Carnero", year: "1638"}
     siglo19:
-      author: "Jorge Isaacs"
-      work: "María"
-      year: "1867"
+      - {author: "Jorge Isaacs", work: "María", year: "1867"}
     siglo20:
-      author: "Gabriel García Márquez"
-      work: "Cien años de soledad"
-      year: "1967"
+      - {author: "Gabriel García Márquez", work: "Cien años de soledad", year: "1967"}
+      - {author: "José Eustasio Rivera", work: "La vorágine", year: "1924"}
     siglo21:
-      author: "Juan Gabriel Vásquez"
-      work: "El ruido de las cosas al caer"
-      year: "2011"
+      - {author: "Juan Gabriel Vásquez", work: "El ruido de las cosas al caer", year: "2011"}
+      - {author: "Laura Restrepo", work: "Delirio", year: "2004"}
 
 - country: "Venezuela"
   continent: "América del Sur"
@@ -952,16 +786,14 @@
   lat: 10.4806
   lng: -66.9036
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Rómulo Gallegos"
-      work: "Doña Bárbara"
-      year: "1929"
+      - {author: "Rómulo Gallegos", work: "Doña Bárbara", year: "1929"}
+      - {author: "Arturo Uslar Pietri", work: "Las lanzas coloradas", year: "1931"}
+      - {author: "Teresa de la Parra", work: "Ifigenia", year: "1924"}
     siglo21:
-      author: "Karina Sainz Borgo"
-      work: "La hija de la española"
-      year: "2019"
+      - {author: "Karina Sainz Borgo", work: "La hija de la española", year: "2019"}
 
 - country: "Ecuador"
   continent: "América del Sur"
@@ -969,16 +801,14 @@
   lat: -0.1807
   lng: -78.4678
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Juan León Mera"
-      work: "Cumandá"
-      year: "1879"
+      - {author: "Juan León Mera", work: "Cumandá", year: "1879"}
     siglo20:
-      author: "Jorge Icaza"
-      work: "Huasipungo"
-      year: "1934"
-    siglo21: null
+      - {author: "Jorge Icaza", work: "Huasipungo", year: "1934"}
+      - {author: "Demetrio Aguilera Malta", work: "Don Goyo", year: "1933"}
+    siglo21:
+      - {author: "Mónica Ojeda", work: "Mandíbula", year: "2018"}
 
 - country: "Bolivia"
   continent: "América del Sur"
@@ -986,16 +816,12 @@
   lat: -16.5000
   lng: -68.1193
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Nataniel Aguirre"
-      work: "Juan de la Rosa"
-      year: "1885"
+      - {author: "Nataniel Aguirre", work: "Juan de la Rosa", year: "1885"}
     siglo20:
-      author: "Alcides Arguedas"
-      work: "Raza de bronce"
-      year: "1919"
-    siglo21: null
+      - {author: "Alcides Arguedas", work: "Raza de bronce", year: "1919"}
+    siglo21: []
 
 - country: "Paraguay"
   continent: "América del Sur"
@@ -1003,13 +829,12 @@
   lat: -25.2637
   lng: -57.5759
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Augusto Roa Bastos"
-      work: "Yo el Supremo"
-      year: "1974"
-    siglo21: null
+      - {author: "Augusto Roa Bastos", work: "Yo el Supremo", year: "1974"}
+      - {author: "Augusto Roa Bastos", work: "Hijo de hombre", year: "1960"}
+    siglo21: []
 
 # ===================== ASIA =====================
 
@@ -1020,21 +845,20 @@
   lng: 116.4074
   writers:
     clasico:
-      author: "Cao Xueqin"
-      work: "Sueño en el pabellón rojo"
-      year: "1791"
+      - {author: "Cao Xueqin", work: "Sueño en el pabellón rojo", year: "1791"}
+      - {author: "Wu Cheng'en", work: "Viaje al Oeste", year: "1592"}
+      - {author: "Luo Guanzhong", work: "Romance de los Tres Reinos", year: "c. siglo XIV"}
     siglo19:
-      author: "Li Ruzhen"
-      work: "Flores en el espejo"
-      year: "1827"
+      - {author: "Li Ruzhen", work: "Flores en el espejo", year: "1827"}
+      - {author: "Han Bangqing", work: "Las flores de Shanghái", year: "1892"}
     siglo20:
-      author: "Lu Xun"
-      work: "Diario de un loco"
-      year: "1918"
+      - {author: "Lu Xun", work: "Diario de un loco", year: "1918"}
+      - {author: "Lao She", work: "El camello Xiangzi", year: "1936"}
+      - {author: "Ba Jin", work: "Familia", year: "1933"}
     siglo21:
-      author: "Liu Cixin"
-      work: "El problema de los tres cuerpos"
-      year: "2008"
+      - {author: "Liu Cixin", work: "El problema de los tres cuerpos", year: "2008"}
+      - {author: "Yu Hua", work: "Hermanos", year: "2005"}
+      - {author: "Mo Yan", work: "Rana", year: "2009"}
 
 - country: "Japón"
   continent: "Asia"
@@ -1043,21 +867,21 @@
   lng: 139.6503
   writers:
     clasico:
-      author: "Murasaki Shikibu"
-      work: "La historia de Genji"
-      year: "1008"
+      - {author: "Murasaki Shikibu", work: "La historia de Genji", year: "1008"}
+      - {author: "Sei Shōnagon", work: "El libro de la almohada", year: "c. 1002"}
+      - {author: "Matsuo Bashō", work: "Sendas de Oku", year: "1702"}
     siglo19:
-      author: "Mori Ōgai"
-      work: "El bailarín"
-      year: "1890"
+      - {author: "Mori Ōgai", work: "El bailarín", year: "1890"}
+      - {author: "Futabatei Shimei", work: "Nubes flotantes", year: "1887"}
+      - {author: "Higuchi Ichiyō", work: "Crecer (Takekurabe)", year: "1895"}
     siglo20:
-      author: "Yasunari Kawabata"
-      work: "País de nieve"
-      year: "1948"
+      - {author: "Yasunari Kawabata", work: "País de nieve", year: "1948"}
+      - {author: "Jun'ichirō Tanizaki", work: "Las hermanas Makioka", year: "1948"}
+      - {author: "Yukio Mishima", work: "El pabellón de oro", year: "1956"}
     siglo21:
-      author: "Haruki Murakami"
-      work: "1Q84"
-      year: "2009"
+      - {author: "Haruki Murakami", work: "1Q84", year: "2009"}
+      - {author: "Sayaka Murata", work: "La chica de la tienda de conveniencia", year: "2016"}
+      - {author: "Hiromi Kawakami", work: "El cielo es azul, la tierra blanca", year: "2001"}
 
 - country: "India"
   continent: "Asia"
@@ -1066,21 +890,20 @@
   lng: 77.2090
   writers:
     clasico:
-      author: "Valmiki"
-      work: "Ramayana"
-      year: "c. siglo V a.C."
+      - {author: "Valmiki", work: "Ramayana", year: "c. siglo V a.C."}
+      - {author: "Vyasa", work: "Majabhárata", year: "c. siglo IV a.C.-IV d.C."}
+      - {author: "Kalidasa", work: "Shakuntala", year: "c. siglo IV-V"}
     siglo19:
-      author: "Bankim Chandra Chattopadhyay"
-      work: "Anandamath"
-      year: "1882"
+      - {author: "Bankim Chandra Chattopadhyay", work: "Anandamath", year: "1882"}
+      - {author: "Bankim Chandra Chattopadhyay", work: "Durgeshnandini", year: "1865"}
     siglo20:
-      author: "Rabindranath Tagore"
-      work: "Gitanjali"
-      year: "1910"
+      - {author: "Rabindranath Tagore", work: "Gitanjali", year: "1910"}
+      - {author: "Munshi Premchand", work: "Godaan (El don de una vaca)", year: "1936"}
+      - {author: "R. K. Narayan", work: "El guía", year: "1958"}
     siglo21:
-      author: "Aravind Adiga"
-      work: "El tigre blanco"
-      year: "2008"
+      - {author: "Aravind Adiga", work: "El tigre blanco", year: "2008"}
+      - {author: "Kiran Desai", work: "El legado de la pérdida", year: "2006"}
+      - {author: "Arundhati Roy", work: "El ministerio de la felicidad suprema", year: "2017"}
 
 - country: "Pakistán"
   continent: "Asia"
@@ -1089,21 +912,16 @@
   lng: 73.0479
   writers:
     clasico:
-      author: "Shah Abdul Latif Bhittai"
-      work: "Shah Jo Risalo"
-      year: "c. siglo XVIII"
+      - {author: "Shah Abdul Latif Bhittai", work: "Shah Jo Risalo", year: "c. siglo XVIII"}
+      - {author: "Waris Shah", work: "Heer Ranjha", year: "1766"}
     siglo19:
-      author: "Mirza Ghalib"
-      work: "Diwan-e-Ghalib"
-      year: "1841"
+      - {author: "Mirza Ghalib", work: "Diwan-e-Ghalib", year: "1841"}
     siglo20:
-      author: "Allama Iqbal"
-      work: "Bang-e-Dara"
-      year: "1924"
+      - {author: "Allama Iqbal", work: "Bang-e-Dara", year: "1924"}
+      - {author: "Saadat Hasan Manto", work: "Toba Tek Singh", year: "1955"}
     siglo21:
-      author: "Mohsin Hamid"
-      work: "El fundamentalista reticente"
-      year: "2007"
+      - {author: "Mohsin Hamid", work: "El fundamentalista reticente", year: "2007"}
+      - {author: "Kamila Shamsie", work: "Fuego amigo (Home Fire)", year: "2017"}
 
 - country: "Irán"
   continent: "Asia"
@@ -1112,18 +930,15 @@
   lng: 51.3890
   writers:
     clasico:
-      author: "Ferdowsi"
-      work: "Shahnameh (El libro de los reyes)"
-      year: "1010"
-    siglo19: null
+      - {author: "Ferdowsi", work: "Shahnameh (El libro de los reyes)", year: "1010"}
+      - {author: "Rumi", work: "Masnavi", year: "c. siglo XIII"}
+      - {author: "Hafez", work: "Diwan de Hafez", year: "c. siglo XIV"}
+    siglo19: []
     siglo20:
-      author: "Sadegh Hedayat"
-      work: "La lechuza ciega"
-      year: "1937"
+      - {author: "Sadegh Hedayat", work: "La lechuza ciega", year: "1937"}
+      - {author: "Forugh Farrokhzad", work: "Otro nacimiento (Tavallodi Digar)", year: "1963"}
     siglo21:
-      author: "Marjane Satrapi"
-      work: "Persépolis"
-      year: "2000"
+      - {author: "Marjane Satrapi", work: "Persépolis", year: "2000"}
 
 - country: "Israel"
   continent: "Asia"
@@ -1131,19 +946,15 @@
   lat: 31.7683
   lng: 35.2137
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Abraham Mapu"
-      work: "El amor de Sión (Ahavat Tzion)"
-      year: "1853"
+      - {author: "Abraham Mapu", work: "El amor de Sión", year: "1853"}
     siglo20:
-      author: "S. Y. Agnon"
-      work: "Sólo ayer (Tmol Shilshom)"
-      year: "1945"
+      - {author: "S. Y. Agnon", work: "Sólo ayer", year: "1945"}
+      - {author: "David Grossman", work: "Véase: amor (See Under: Love)", year: "1986"}
     siglo21:
-      author: "Amos Oz"
-      work: "Una historia de amor y oscuridad"
-      year: "2002"
+      - {author: "Amos Oz", work: "Una historia de amor y oscuridad", year: "2002"}
+      - {author: "David Grossman", work: "Hasta el fin del mundo (To the End of the Land)", year: "2008"}
 
 - country: "Líbano"
   continent: "Asia"
@@ -1151,19 +962,14 @@
   lat: 33.8938
   lng: 35.5018
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Butrus al-Bustani"
-      work: "Da'irat al-Ma'arif (primera enciclopedia árabe moderna)"
-      year: "1876"
+      - {author: "Butrus al-Bustani", work: "Da'irat al-Ma'arif", year: "1876"}
     siglo20:
-      author: "Khalil Gibran"
-      work: "El profeta"
-      year: "1923"
+      - {author: "Khalil Gibran", work: "El profeta", year: "1923"}
     siglo21:
-      author: "Amin Maalouf"
-      work: "Los desorientados"
-      year: "2012"
+      - {author: "Amin Maalouf", work: "Los desorientados", year: "2012"}
+      - {author: "Rabih Alameddine", work: "Una mujer innecesaria", year: "2013"}
 
 - country: "Iraq"
   continent: "Asia"
@@ -1172,18 +978,13 @@
   lng: 44.3661
   writers:
     clasico:
-      author: "Al-Mutanabbi"
-      work: "Diwan de Al-Mutanabbi"
-      year: "c. 950"
-    siglo19: null
+      - {author: "Al-Mutanabbi", work: "Diwan de Al-Mutanabbi", year: "c. 950"}
+    siglo19: []
     siglo20:
-      author: "Badr Shakir al-Sayyab"
-      work: "Canción de la lluvia (Unshudat al-Matar)"
-      year: "1960"
+      - {author: "Badr Shakir al-Sayyab", work: "Canción de la lluvia", year: "1960"}
+      - {author: "Nazik Al-Malaika", work: "Amante de la noche (Ashiqat al-Layl)", year: "1947"}
     siglo21:
-      author: "Ahmed Saadawi"
-      work: "Frankenstein en Bagdad"
-      year: "2013"
+      - {author: "Ahmed Saadawi", work: "Frankenstein en Bagdad", year: "2013"}
 
 - country: "Siria"
   continent: "Asia"
@@ -1192,21 +993,13 @@
   lng: 36.2765
   writers:
     clasico:
-      author: "Abu Firas al-Hamdani"
-      work: "Diwan (al-Rumiyyat)"
-      year: "c. 962"
+      - {author: "Abu Firas al-Hamdani", work: "Diwan (al-Rumiyyat)", year: "c. 962"}
     siglo19:
-      author: "Francis Marrash"
-      work: "El bosque de la verdad (Ghabat al-Haqq)"
-      year: "1865"
+      - {author: "Francis Marrash", work: "El bosque de la verdad", year: "1865"}
     siglo20:
-      author: "Adonis"
-      work: "Cantos de Mihyar el Damasceno (Aghani Mihyar al-Dimashqi)"
-      year: "1961"
+      - {author: "Adonis", work: "Cantos de Mihyar el Damasceno", year: "1961"}
     siglo21:
-      author: "Khaled Khalifa"
-      work: "Elogio del odio (Madih al-Karahiya)"
-      year: "2006"
+      - {author: "Khaled Khalifa", work: "Elogio del odio", year: "2006"}
 
 - country: "Turquía"
   continent: "Asia"
@@ -1215,21 +1008,16 @@
   lng: 32.8597
   writers:
     clasico:
-      author: "Yunus Emre"
-      work: "Divan-ı Yunus Emre"
-      year: "c. 1300"
+      - {author: "Yunus Emre", work: "Divan-ı Yunus Emre", year: "c. 1300"}
+      - {author: "Fuzûlî", work: "Leylâ ile Mecnûn", year: "c. siglo XVI"}
     siglo19:
-      author: "Namık Kemal"
-      work: "Vatan yahut Silistre"
-      year: "1873"
+      - {author: "Namık Kemal", work: "Vatan yahut Silistre", year: "1873"}
     siglo20:
-      author: "Yaşar Kemal"
-      work: "Memed, el flaco (İnce Memed)"
-      year: "1955"
+      - {author: "Yaşar Kemal", work: "Memed, el flaco", year: "1955"}
+      - {author: "Nâzım Hikmet", work: "Paisajes humanos de mi país", year: "1966"}
     siglo21:
-      author: "Orhan Pamuk"
-      work: "Nieve (Kar)"
-      year: "2002"
+      - {author: "Orhan Pamuk", work: "Nieve (Kar)", year: "2002"}
+      - {author: "Elif Shafak", work: "10 minutos y 38 segundos en este extraño mundo", year: "2019"}
 
 - country: "Corea del Sur"
   continent: "Asia"
@@ -1238,18 +1026,16 @@
   lng: 126.9780
   writers:
     clasico:
-      author: "Heo Gyun"
-      work: "La historia de Hong Gildong (Hong Gildong jeon)"
-      year: "c. 1612"
-    siglo19: null
+      - {author: "Heo Gyun", work: "La historia de Hong Gildong", year: "c. 1612"}
+    siglo19:
+      - {author: "Anónimo (tradición oral pansori)", work: "Chunhyangjeon (El cuento de Chunhyang)", year: "c. siglo XIX"}
     siglo20:
-      author: "Yi Sang"
-      work: "Alas (Nalgae)"
-      year: "1936"
+      - {author: "Yi Sang", work: "Alas", year: "1936"}
+      - {author: "Park Kyong-ni", work: "Toji (La tierra)", year: "1969-1994"}
     siglo21:
-      author: "Han Kang"
-      work: "La vegetariana"
-      year: "2007"
+      - {author: "Han Kang", work: "La vegetariana", year: "2007"}
+      - {author: "Han Kang", work: "Actos humanos", year: "2014"}
+      - {author: "Han Kang", work: "El libro blanco", year: "2016"}
 
 - country: "Vietnam"
   continent: "Asia"
@@ -1258,21 +1044,18 @@
   lng: 105.8542
   writers:
     clasico:
-      author: "Nguyễn Du"
-      work: "El cuento de Kieu (Truyện Kiều)"
-      year: "c. 1820"
+      - {author: "Nguyễn Du", work: "El cuento de Kieu", year: "c. 1820"}
+      - {author: "Nguyễn Trãi", work: "Gran proclama de la pacificación", year: "1428"}
+      - {author: "Hồ Xuân Hương", work: "Poemas", year: "c. 1772-1822"}
     siglo19:
-      author: "Nguyễn Đình Chiểu"
-      work: "Lục Vân Tiên"
-      year: "c. 1850"
+      - {author: "Nguyễn Đình Chiểu", work: "Lục Vân Tiên", year: "c. 1850"}
     siglo20:
-      author: "Bảo Ninh"
-      work: "El dolor de la guerra"
-      year: "1990"
+      - {author: "Bảo Ninh", work: "El dolor de la guerra", year: "1990"}
+      - {author: "Vũ Trọng Phụng", work: "Số đỏ (Suerte roja)", year: "1936"}
     siglo21:
-      author: "Viet Thanh Nguyen"
-      work: "El simpatizante"
-      year: "2015"
+      - {author: "Viet Thanh Nguyen", work: "El simpatizante", year: "2015"}
+      - {author: "Ocean Vuong", work: "En la Tierra somos fugazmente grandiosos", year: "2019"}
+      - {author: "Kim Thúy", work: "Ru", year: "2009"}
 
 - country: "Indonesia"
   continent: "Asia"
@@ -1281,18 +1064,16 @@
   lng: 106.8456
   writers:
     clasico:
-      author: "Mpu Prapanca"
-      work: "Nagarakretagama (Deśawarṇana)"
-      year: "1365"
-    siglo19: null
+      - {author: "Mpu Prapanca", work: "Nagarakretagama", year: "1365"}
+      - {author: "Mpu Tantular", work: "Kakawin Sutasoma", year: "c. siglo XIV"}
+      - {author: "Anónimo (corte javanesa)", work: "Kakawin Ramayana", year: "c. siglo IX-X"}
+    siglo19: []
     siglo20:
-      author: "Pramoedya Ananta Toer"
-      work: "Tierra de hombres (Bumi Manusia)"
-      year: "1980"
+      - {author: "Pramoedya Ananta Toer", work: "Tierra de hombres", year: "1980"}
+      - {author: "Pramoedya Ananta Toer", work: "Hijos de todas las naciones", year: "1980"}
     siglo21:
-      author: "Eka Kurniawan"
-      work: "Belleza es una herida"
-      year: "2002"
+      - {author: "Eka Kurniawan", work: "Belleza es una herida", year: "2002"}
+      - {author: "Eka Kurniawan", work: "El hombre tigre", year: "2004"}
 
 - country: "Filipinas"
   continent: "Asia"
@@ -1300,19 +1081,17 @@
   lat: 14.5995
   lng: 120.9842
   writers:
-    clasico: null
+    clasico:
+      - {author: "Anónimo (atribuido a José de la Cruz)", work: "Ibong Adarna", year: "c. siglo XVIII"}
     siglo19:
-      author: "José Rizal"
-      work: "Noli me tangere"
-      year: "1887"
+      - {author: "José Rizal", work: "Noli me tangere", year: "1887"}
+      - {author: "José Rizal", work: "El filibusterismo", year: "1891"}
     siglo20:
-      author: "Nick Joaquín"
-      work: "La mujer que tenía dos ombligos"
-      year: "1961"
+      - {author: "Nick Joaquín", work: "La mujer que tenía dos ombligos", year: "1961"}
+      - {author: "F. Sionil José", work: "Po-on (Ocaso)", year: "1984"}
     siglo21:
-      author: "Miguel Syjuco"
-      work: "Ilustrado"
-      year: "2010"
+      - {author: "Miguel Syjuco", work: "Ilustrado", year: "2010"}
+      - {author: "Gina Apostol", work: "Insurrecto", year: "2018"}
 
 - country: "Afganistán"
   continent: "Asia"
@@ -1320,13 +1099,15 @@
   lat: 34.5553
   lng: 69.2075
   writers:
-    clasico: null
-    siglo19: null
-    siglo20: null
+    clasico:
+      - {author: "Khwaja Abdullah Ansari", work: "Munajat (Invocaciones íntimas)", year: "c. siglo XI"}
+      - {author: "Jami", work: "Haft Awrang (Los siete tronos)", year: "c. 1480"}
+    siglo19: []
+    siglo20: []
     siglo21:
-      author: "Khaled Hosseini"
-      work: "Cometas en el cielo"
-      year: "2003"
+      - {author: "Khaled Hosseini", work: "Cometas en el cielo", year: "2003"}
+      - {author: "Khaled Hosseini", work: "Mil soles espléndidos", year: "2007"}
+      - {author: "Khaled Hosseini", work: "Y las montañas hablaron", year: "2013"}
 
 - country: "Bangladés"
   continent: "Asia"
@@ -1335,21 +1116,14 @@
   lng: 90.4125
   writers:
     clasico:
-      author: "Poetas Siddhacharya (anónimos)"
-      work: "Charyapada"
-      year: "c. siglos VIII-XII"
+      - {author: "Poetas Siddhacharya (anónimos)", work: "Charyapada", year: "c. siglos VIII-XII"}
     siglo19:
-      author: "Rabindranath Tagore"
-      work: "La barca dorada (Sonar Tari)"
-      year: "1894"
+      - {author: "Rabindranath Tagore", work: "La barca dorada (Sonar Tari)", year: "1894"}
     siglo20:
-      author: "Kazi Nazrul Islam"
-      work: "El rebelde (Bidrohi)"
-      year: "1922"
+      - {author: "Kazi Nazrul Islam", work: "El rebelde (Bidrohi)", year: "1922"}
     siglo21:
-      author: "Monica Ali"
-      work: "Brick Lane"
-      year: "2003"
+      - {author: "Monica Ali", work: "Brick Lane", year: "2003"}
+      - {author: "Tahmima Anam", work: "Una edad dorada (A Golden Age)", year: "2007"}
 
 - country: "Sri Lanka"
   continent: "Asia"
@@ -1358,18 +1132,13 @@
   lng: 79.8612
   writers:
     clasico:
-      author: "Mahanama Thera"
-      work: "Mahavamsa (La Gran Crónica)"
-      year: "c. siglo V-VI"
-    siglo19: null
+      - {author: "Mahanama Thera", work: "Mahavamsa (La Gran Crónica)", year: "c. siglo V-VI"}
+    siglo19: []
     siglo20:
-      author: "Martin Wickramasinghe"
-      work: "Gamperaliya"
-      year: "1944"
+      - {author: "Martin Wickramasinghe", work: "Gamperaliya", year: "1944"}
     siglo21:
-      author: "Michael Ondaatje"
-      work: "El fantasma de Anil"
-      year: "2000"
+      - {author: "Michael Ondaatje", work: "El fantasma de Anil", year: "2000"}
+      - {author: "Shehan Karunatilaka", work: "Las siete lunas de Maali Almeida", year: "2022"}
 
 - country: "Tailandia"
   continent: "Asia"
@@ -1378,21 +1147,13 @@
   lng: 100.5018
   writers:
     clasico:
-      author: "Rama I (Phra Phutthayotfa Chulalok)"
-      work: "Ramakien"
-      year: "c. 1797"
+      - {author: "Rama I (Phra Phutthayotfa Chulalok)", work: "Ramakien", year: "c. 1797"}
     siglo19:
-      author: "Sunthorn Phu"
-      work: "Phra Aphai Mani"
-      year: "1822-1844"
+      - {author: "Sunthorn Phu", work: "Phra Aphai Mani", year: "1822-1844"}
     siglo20:
-      author: "Kukrit Pramoj"
-      work: "Cuatro reinados (Si Phaendin)"
-      year: "1953"
+      - {author: "Kukrit Pramoj", work: "Cuatro reinados (Si Phaendin)", year: "1953"}
     siglo21:
-      author: "Rattawut Lapcharoensap"
-      work: "Sightseeing"
-      year: "2005"
+      - {author: "Rattawut Lapcharoensap", work: "Sightseeing", year: "2005"}
 
 - country: "Georgia"
   continent: "Asia"
@@ -1401,21 +1162,13 @@
   lng: 44.8271
   writers:
     clasico:
-      author: "Shota Rustaveli"
-      work: "El caballero de la piel de tigre"
-      year: "c. 1190"
+      - {author: "Shota Rustaveli", work: "El caballero de la piel de tigre", year: "c. 1190"}
     siglo19:
-      author: "Ilia Chavchavadze"
-      work: "¿Es un ser humano? (Katsia-adamiani?!)"
-      year: "1863"
+      - {author: "Ilia Chavchavadze", work: "¿Es un ser humano? (Katsia-adamiani?!)", year: "1863"}
     siglo20:
-      author: "Nodar Dumbadze"
-      work: "Yo, la abuela, Iliko y Ilarión"
-      year: "1960"
+      - {author: "Nodar Dumbadze", work: "Yo, la abuela, Iliko y Ilarión", year: "1960"}
     siglo21:
-      author: "Nino Haratischvili"
-      work: "La octava vida (para Brilka)"
-      year: "2014"
+      - {author: "Nino Haratischvili", work: "La octava vida (para Brilka)", year: "2014"}
 
 - country: "Armenia"
   continent: "Asia"
@@ -1424,21 +1177,13 @@
   lng: 44.4991
   writers:
     clasico:
-      author: "Grigor Narekatsi"
-      work: "Libro de Lamentaciones (Narek)"
-      year: "c. 1002"
+      - {author: "Grigor Narekatsi", work: "Libro de Lamentaciones (Narek)", year: "c. 1002"}
     siglo19:
-      author: "Hovhannes Tumanyan"
-      work: "Anush"
-      year: "1890"
+      - {author: "Hovhannes Tumanyan", work: "Anush", year: "1890"}
     siglo20:
-      author: "Yeghishe Charents"
-      work: "País de Nairi (Erkir Nairi)"
-      year: "1926"
+      - {author: "Yeghishe Charents", work: "País de Nairi (Erkir Nairi)", year: "1926"}
     siglo21:
-      author: "Narine Abgaryan"
-      work: "Tres manzanas cayeron del cielo"
-      year: "2015"
+      - {author: "Narine Abgaryan", work: "Tres manzanas cayeron del cielo", year: "2015"}
 
 # ===================== ÁFRICA =====================
 
@@ -1449,21 +1194,16 @@
   lng: 31.2357
   writers:
     clasico:
-      author: "Anónimo"
-      work: "Las mil y una noches"
-      year: "compilación gradual, forma fijada en El Cairo, s. XVIII"
+      - {author: "Anónimo", work: "Las mil y una noches", year: "compilación gradual, forma fijada en El Cairo, s. XVIII"}
     siglo19:
-      author: "Rifa'a al-Tahtawi"
-      work: "La extracción del oro en el resumen de París (Takhlis al-Ibriz)"
-      year: "1834"
+      - {author: "Rifa'a al-Tahtawi", work: "La extracción del oro en el resumen de París", year: "1834"}
     siglo20:
-      author: "Naguib Mahfuz"
-      work: "Trilogía de El Cairo"
-      year: "1956"
+      - {author: "Naguib Mahfuz", work: "Trilogía de El Cairo", year: "1956"}
+      - {author: "Taha Hussein", work: "Los días", year: "1929"}
+      - {author: "Tawfiq al-Hakim", work: "Diario de un fiscal rural", year: "1937"}
     siglo21:
-      author: "Alaa Al Aswany"
-      work: "El edificio Yacobián"
-      year: "2002"
+      - {author: "Alaa Al Aswany", work: "El edificio Yacobián", year: "2002"}
+      - {author: "Youssef Ziedan", work: "Azazel", year: "2008"}
 
 - country: "Nigeria"
   continent: "África"
@@ -1471,16 +1211,16 @@
   lat: 9.0765
   lng: 7.3986
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Chinua Achebe"
-      work: "Todo se desmorona"
-      year: "1958"
+      - {author: "Chinua Achebe", work: "Todo se desmorona", year: "1958"}
+      - {author: "Wole Soyinka", work: "The Interpreters", year: "1965"}
+      - {author: "Amos Tutuola", work: "The Palm-Wine Drinkard", year: "1952"}
     siglo21:
-      author: "Chimamanda Ngozi Adichie"
-      work: "Medio sol amarillo"
-      year: "2006"
+      - {author: "Chimamanda Ngozi Adichie", work: "Medio sol amarillo", year: "2006"}
+      - {author: "Teju Cole", work: "Ciudad abierta (Open City)", year: "2011"}
+      - {author: "Chigozie Obioma", work: "Los pescadores (The Fishermen)", year: "2015"}
 
 - country: "Sudáfrica"
   continent: "África"
@@ -1488,19 +1228,15 @@
   lat: -25.7479
   lng: 28.2293
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Olive Schreiner"
-      work: "La historia de una granja africana"
-      year: "1883"
+      - {author: "Olive Schreiner", work: "La historia de una granja africana", year: "1883"}
     siglo20:
-      author: "J. M. Coetzee"
-      work: "Desgracia"
-      year: "1999"
+      - {author: "J. M. Coetzee", work: "Desgracia", year: "1999"}
+      - {author: "Alan Paton", work: "Llora, tierra amada", year: "1948"}
+      - {author: "Nadine Gordimer", work: "La gente de July", year: "1981"}
     siglo21:
-      author: "Damon Galgut"
-      work: "La promesa"
-      year: "2021"
+      - {author: "Damon Galgut", work: "La promesa", year: "2021"}
 
 - country: "Kenia"
   continent: "África"
@@ -1508,16 +1244,12 @@
   lat: -1.2921
   lng: 36.8219
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Ngũgĩ wa Thiong'o"
-      work: "Un grano de trigo"
-      year: "1967"
+      - {author: "Ngũgĩ wa Thiong'o", work: "Un grano de trigo", year: "1967"}
     siglo21:
-      author: "Yvonne Adhiambo Owuor"
-      work: "Dust"
-      year: "2013"
+      - {author: "Yvonne Adhiambo Owuor", work: "Dust", year: "2013"}
 
 - country: "Senegal"
   continent: "África"
@@ -1525,16 +1257,15 @@
   lat: 14.7167
   lng: -17.4677
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Léopold Sédar Senghor"
-      work: "Cantos de sombra (Chants d'ombre)"
-      year: "1945"
+      - {author: "Léopold Sédar Senghor", work: "Cantos de sombra", year: "1945"}
+      - {author: "Ousmane Sembène", work: "Les Bouts de bois de Dieu", year: "1960"}
+      - {author: "Mariama Bâ", work: "Carta muy larga (Une si longue lettre)", year: "1979"}
     siglo21:
-      author: "Mohamed Mbougar Sarr"
-      work: "La memoria más secreta de los hombres"
-      year: "2021"
+      - {author: "Mohamed Mbougar Sarr", work: "La memoria más secreta de los hombres", year: "2021"}
+      - {author: "Fatou Diome", work: "El vientre del Atlántico", year: "2003"}
 
 - country: "Argelia"
   continent: "África"
@@ -1542,16 +1273,13 @@
   lat: 36.7538
   lng: 3.0588
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Kateb Yacine"
-      work: "Nedjma"
-      year: "1956"
+      - {author: "Kateb Yacine", work: "Nedjma", year: "1956"}
     siglo21:
-      author: "Kamel Daoud"
-      work: "Meursault, caso revisado"
-      year: "2013"
+      - {author: "Kamel Daoud", work: "Meursault, caso revisado", year: "2013"}
+      - {author: "Yasmina Khadra", work: "Las golondrinas de Kabul", year: "2002"}
 
 - country: "Marruecos"
   continent: "África"
@@ -1559,16 +1287,13 @@
   lat: 34.0209
   lng: -6.8416
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Tahar Ben Jelloun"
-      work: "La noche sagrada"
-      year: "1987"
+      - {author: "Tahar Ben Jelloun", work: "La noche sagrada", year: "1987"}
+      - {author: "Driss Chraïbi", work: "El pasado simple", year: "1954"}
     siglo21:
-      author: "Leila Slimani"
-      work: "Canción dulce"
-      year: "2016"
+      - {author: "Leila Slimani", work: "Canción dulce", year: "2016"}
 
 - country: "Etiopía"
   continent: "África"
@@ -1577,15 +1302,11 @@
   lng: 38.7469
   writers:
     clasico:
-      author: "Anónimo"
-      work: "Kebra Nagast (El libro de la gloria de los reyes)"
-      year: "c. siglo XIV"
-    siglo19: null
-    siglo20: null
+      - {author: "Anónimo", work: "Kebra Nagast (El libro de la gloria de los reyes)", year: "c. siglo XIV"}
+    siglo19: []
+    siglo20: []
     siglo21:
-      author: "Maaza Mengiste"
-      work: "El rey en la sombra"
-      year: "2019"
+      - {author: "Maaza Mengiste", work: "El rey en la sombra", year: "2019"}
 
 - country: "Somalia"
   continent: "África"
@@ -1593,16 +1314,15 @@
   lat: 2.0469
   lng: 45.3182
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Nuruddin Farah"
-      work: "De una costilla torcida"
-      year: "1970"
+      - {author: "Nuruddin Farah", work: "De una costilla torcida", year: "1970"}
+      - {author: "Faarax M. J. Cawl", work: "La ignorancia es enemiga del amor", year: "1974"}
+      - {author: "Nuruddin Farah", work: "Sweet and Sour Milk", year: "1979"}
     siglo21:
-      author: "Nadifa Mohamed"
-      work: "Los hombres de suerte (The Fortune Men)"
-      year: "2021"
+      - {author: "Nadifa Mohamed", work: "Los hombres de suerte", year: "2021"}
+      - {author: "Nadifa Mohamed", work: "Black Mamba Boy", year: "2010"}
 
 - country: "Ghana"
   continent: "África"
@@ -1610,16 +1330,15 @@
   lat: 5.6037
   lng: -0.1870
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Ayi Kwei Armah"
-      work: "The Beautyful Ones Are Not Yet Born"
-      year: "1968"
+      - {author: "Ayi Kwei Armah", work: "The Beautyful Ones Are Not Yet Born", year: "1968"}
+      - {author: "Ama Ata Aidoo", work: "Changes: A Love Story", year: "1991"}
+      - {author: "Kofi Awoonor", work: "This Earth, My Brother", year: "1971"}
     siglo21:
-      author: "Yaa Gyasi"
-      work: "Volver a casa (Homegoing)"
-      year: "2016"
+      - {author: "Yaa Gyasi", work: "Volver a casa (Homegoing)", year: "2016"}
+      - {author: "Yaa Gyasi", work: "El reino de los cielos (Transcendent Kingdom)", year: "2020"}
 
 - country: "Zimbabue"
   continent: "África"
@@ -1627,16 +1346,15 @@
   lat: -17.8292
   lng: 31.0522
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Tsitsi Dangarembga"
-      work: "Condiciones nerviosas (Nervous Conditions)"
-      year: "1988"
+      - {author: "Tsitsi Dangarembga", work: "Condiciones nerviosas", year: "1988"}
+      - {author: "Dambudzo Marechera", work: "The House of Hunger", year: "1978"}
+      - {author: "Yvonne Vera", work: "Butterfly Burning", year: "1998"}
     siglo21:
-      author: "NoViolet Bulawayo"
-      work: "Necesitamos nombres nuevos (We Need New Names)"
-      year: "2013"
+      - {author: "NoViolet Bulawayo", work: "Necesitamos nombres nuevos", year: "2013"}
+      - {author: "Tsitsi Dangarembga", work: "This Mournable Body", year: "2018"}
 
 - country: "Malí"
   continent: "África"
@@ -1645,15 +1363,12 @@
   lng: -8.0029
   writers:
     clasico:
-      author: "Anónimo (tradición oral mandinga)"
-      work: "Epopeya de Sundiata"
-      year: "c. siglo XIII (tradición oral)"
-    siglo19: null
+      - {author: "Anónimo (tradición oral mandinga)", work: "Epopeya de Sundiata", year: "c. siglo XIII (tradición oral)"}
+    siglo19: []
     siglo20:
-      author: "Amadou Hampâté Bâ"
-      work: "La extraña suerte de Wangrin"
-      year: "1973"
-    siglo21: null
+      - {author: "Amadou Hampâté Bâ", work: "La extraña suerte de Wangrin", year: "1973"}
+      - {author: "Yambo Ouologuem", work: "El deber de violencia (Le Devoir de violence)", year: "1968"}
+    siglo21: []
 
 - country: "Tanzania"
   continent: "África"
@@ -1661,16 +1376,14 @@
   lat: -6.1630
   lng: 35.7516
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Shaaban Robert"
-      work: "Kusadikika"
-      year: "1951"
+      - {author: "Shaaban Robert", work: "Kusadikika", year: "1951"}
+      - {author: "Euphrase Kezilahabi", work: "Rosa Mistika", year: "1971"}
     siglo21:
-      author: "Abdulrazak Gurnah"
-      work: "Vidas póstumas (Afterlives)"
-      year: "2020"
+      - {author: "Abdulrazak Gurnah", work: "Vidas póstumas (Afterlives)", year: "2020"}
+      - {author: "Abdulrazak Gurnah", work: "Junto al mar (By the Sea)", year: "2001"}
 
 - country: "República Democrática del Congo"
   continent: "África"
@@ -1678,13 +1391,13 @@
   lat: -4.4419
   lng: 15.2663
   writers:
-    clasico: null
-    siglo19: null
-    siglo20: null
+    clasico: []
+    siglo19: []
+    siglo20:
+      - {author: "Valentin-Yves Mudimbe", work: "Le Bel Immonde", year: "1976"}
     siglo21:
-      author: "Fiston Mwanza Mujila"
-      work: "Tram 83"
-      year: "2014"
+      - {author: "Fiston Mwanza Mujila", work: "Tram 83", year: "2014"}
+      - {author: "In Koli Jean Bofane", work: "Congo Inc.: el testamento de Bismarck", year: "2014"}
 
 - country: "Angola"
   continent: "África"
@@ -1692,16 +1405,15 @@
   lat: -8.8390
   lng: 13.2894
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Pepetela"
-      work: "Mayombe"
-      year: "1980"
+      - {author: "Pepetela", work: "Mayombe", year: "1980"}
+      - {author: "José Luandino Vieira", work: "Luuanda", year: "1964"}
+      - {author: "Agostinho Neto", work: "Sagrada Esperanza", year: "1974"}
     siglo21:
-      author: "José Eduardo Agualusa"
-      work: "Teoría general del olvido"
-      year: "2012"
+      - {author: "José Eduardo Agualusa", work: "Teoría general del olvido", year: "2012"}
+      - {author: "Ondjaki", work: "Los transparentes", year: "2012"}
 
 # ===================== OCEANÍA =====================
 
@@ -1711,19 +1423,15 @@
   lat: -35.2809
   lng: 149.1300
   writers:
-    clasico: null
+    clasico: []
     siglo19:
-      author: "Marcus Clarke"
-      work: "For the Term of His Natural Life"
-      year: "1874"
+      - {author: "Marcus Clarke", work: "For the Term of His Natural Life", year: "1874"}
     siglo20:
-      author: "Patrick White"
-      work: "Voss"
-      year: "1957"
+      - {author: "Patrick White", work: "Voss", year: "1957"}
+      - {author: "Thomas Keneally", work: "El arca de Schindler", year: "1982"}
+      - {author: "Tim Winton", work: "Cloudstreet", year: "1991"}
     siglo21:
-      author: "Richard Flanagan"
-      work: "El camino estrecho al norte profundo"
-      year: "2013"
+      - {author: "Richard Flanagan", work: "El camino estrecho al norte profundo", year: "2013"}
 
 - country: "Nueva Zelanda"
   continent: "Oceanía"
@@ -1731,16 +1439,14 @@
   lat: -41.2865
   lng: 174.7762
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Katherine Mansfield"
-      work: "En una pensión alemana"
-      year: "1911"
+      - {author: "Katherine Mansfield", work: "En una pensión alemana", year: "1911"}
+      - {author: "Keri Hulme", work: "El pueblo de los huesos (The Bone People)", year: "1984"}
+      - {author: "Witi Ihimaera", work: "El jinete de la ballena", year: "1987"}
     siglo21:
-      author: "Eleanor Catton"
-      work: "Las luminarias"
-      year: "2013"
+      - {author: "Eleanor Catton", work: "Las luminarias", year: "2013"}
 
 - country: "Samoa"
   continent: "Oceanía"
@@ -1748,13 +1454,13 @@
   lat: -13.8507
   lng: -171.7513
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Albert Wendt"
-      work: "Leaves of the Banyan Tree"
-      year: "1979"
-    siglo21: null
+      - {author: "Albert Wendt", work: "Leaves of the Banyan Tree", year: "1979"}
+      - {author: "Albert Wendt", work: "Sons for the Return Home", year: "1973"}
+      - {author: "Sia Figiel", work: "Where We Once Belonged", year: "1996"}
+    siglo21: []
 
 - country: "Fiyi"
   continent: "Oceanía"
@@ -1762,13 +1468,10 @@
   lat: -18.1416
   lng: 178.4419
   writers:
-    clasico: null
-    siglo19: null
+    clasico: []
+    siglo19: []
     siglo20:
-      author: "Subramani"
-      work: "The Fantasy Eaters: Stories from Fiji"
-      year: "1988"
+      - {author: "Subramani", work: "The Fantasy Eaters: Stories from Fiji", year: "1988"}
+      - {author: "Satendra Nandan", work: "The Wounded Sea", year: "1991"}
     siglo21:
-      author: "Subramani"
-      work: "Dauka Puran"
-      year: "2001"
+      - {author: "Subramani", work: "Dauka Puran", year: "2001"}
