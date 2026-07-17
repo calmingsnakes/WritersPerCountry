@@ -1,5 +1,5 @@
-# Fuente única de datos para todo el sitio.
-# Cada país tiene: continent, capital, lat/lng (para el mapa) y writers
+# Fuente única de datos para todo el sitio (páginas por época y el CSV descargable).
+# Cada país tiene: continent, capital, lat/lng y writers
 # con una entrada por época: clasico (antes de 1800), siglo19, siglo20, siglo21.
 # Cuando no existe una figura de consenso reconocida internacionalmente para
 # una época en un país, el bloque correspondiente se deja en null.

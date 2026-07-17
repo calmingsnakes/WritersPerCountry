@@ -1,5 +1,6 @@
 ---
 title: Clásicos
+layout: default
 nav_order: 2
 description: "Los escritores y obras clásicas más celebradas, país por país."
 ---

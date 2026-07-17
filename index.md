@@ -12,8 +12,8 @@ permalink: /
 Una guía cultural con los escritores y las obras más celebrados de cada país del mundo, organizada por época literaria.
 {: .fs-6 .fw-300 }
 
-[Ver el mapa mundial]({{ '/mapa.html' | relative_url }}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Escritores clásicos]({{ '/docs/clasicos.html' | relative_url }}){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Escritores clásicos]({{ '/docs/clasicos.html' | relative_url }}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Descargar CSV]({{ '/escritores-por-pais.csv' | relative_url }}){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -27,9 +27,14 @@ Esta guía recorre **más de 85 países** en los seis continentes y presenta, pa
 | 🕯️ **[Siglo XIX]({{ '/docs/siglo-19.html' | relative_url }})** | 1800 – 1899 | Romanticismo, realismo, naturalismo |
 | 📖 **[Siglo XX]({{ '/docs/siglo-20.html' | relative_url }})** | 1900 – 1999 | Vanguardias, modernismo, literatura contemporánea temprana |
 | 💻 **[Siglo XXI]({{ '/docs/siglo-21.html' | relative_url }})** | 2000 – hoy | Literatura contemporánea y actual |
-| 🗺️ **[Mapa mundial]({{ '/mapa.html' | relative_url }})** | — | Explora los escritores por país en un mapa interactivo |
 
 Usa la **barra de búsqueda** en la parte superior para encontrar rápidamente un país, un autor o una obra específica.
+
+### Descarga los datos
+
+Todos los datos de esta guía están disponibles como archivo CSV, con columnas **continente, país, autor, obra, siglo** — una fila por cada combinación país/época.
+
+[⬇️ Descargar escritores-por-pais.csv]({{ '/escritores-por-pais.csv' | relative_url }}){: .btn .btn-blue }
 
 ### Criterio de selección
 

@@ -1,0 +1,13 @@
+---
+---
+{%- assign eras = "clasico,siglo19,siglo20,siglo21" | split: "," -%}
+{%- assign era_labels = "Clásico,Siglo XIX,Siglo XX,Siglo XXI" | split: "," -%}
+continente,pais,autor,obra,siglo
+{%- for country in site.data.writers -%}
+{%- for era in eras -%}
+{%- assign w = country.writers[era] -%}
+{%- if w and w.author %}
+"{{ country.continent | replace: '"', '""' }}","{{ country.country | replace: '"', '""' }}","{{ w.author | replace: '"', '""' }}","{{ w.work | replace: '"', '""' }}","{{ era_labels[forloop.index0] }}"
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}

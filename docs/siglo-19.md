@@ -1,5 +1,6 @@
 ---
 title: Siglo XIX
+layout: default
 nav_order: 3
 description: "Los escritores y obras más celebrados del siglo XIX, país por país."
 ---

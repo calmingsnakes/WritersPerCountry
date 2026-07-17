@@ -1,5 +1,6 @@
 ---
 title: Siglo XX
+layout: default
 nav_order: 4
 description: "Los escritores y obras más celebrados del siglo XX, país por país."
 ---

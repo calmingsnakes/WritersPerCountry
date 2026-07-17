@@ -1,5 +1,6 @@
 ---
 title: Siglo XXI
+layout: default
 nav_order: 5
 description: "Los escritores y obras más celebrados del siglo XXI, país por país."
 ---
