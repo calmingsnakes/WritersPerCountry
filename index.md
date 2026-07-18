@@ -37,7 +37,9 @@ Usa la **barra de búsqueda** en la parte superior para saltar directo a un paí
 
 ### Descarga el tracker de lectura (CSV)
 
-Todos los datos de esta guía están disponibles como archivo CSV para usar como **tracker de lectura personal**: una fila por cada obra, con columnas **continente, país, autor, obra, siglo, leído**. Descargalo, abrilo en Excel/Sheets, y marcá la columna `leido` (Sí/No) a medida que vayas leyendo.
+Todos los datos de esta guía están disponibles como archivo CSV para usar como **tracker de lectura personal**: una fila por cada obra, con columnas **continente, país, autor, obra, siglo, leído, dominio_publico, enlace_descarga**. Descargalo, abrilo en Excel/Sheets, y marcá la columna `leido` (Sí/No) a medida que vayas leyendo.
+
+Para las obras marcadas `dominio_publico: Sí` (autor fallecido hace 70+ años, o texto anónimo/antiguo), la columna `enlace_descarga` trae un link directo a una fuente legal y gratuita (Project Gutenberg, Internet Archive, Wikisource, etc.) — 171 de las 501 obras del catálogo.
 
 [⬇️ Descargar escritores-por-pais.csv]({{ '/escritores-por-pais.csv' | relative_url }}){: .btn .btn-blue }
 

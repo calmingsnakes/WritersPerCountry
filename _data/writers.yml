@@ -13,15 +13,15 @@
   lng: -3.7038
   writers:
     clasico:
-      - {author: "Miguel de Cervantes", work: "Don Quijote de la Mancha", year: "1605"}
-      - {author: "Lope de Vega", work: "Fuenteovejuna", year: "1619"}
-      - {author: "Pedro Calderón de la Barca", work: "La vida es sueño", year: "1635"}
+      - {author: "Miguel de Cervantes", work: "Don Quijote de la Mancha", year: "1605", enlace: "https://www.gutenberg.org/files/2000/2000-h/2000-h.htm"}
+      - {author: "Lope de Vega", work: "Fuenteovejuna", year: "1619", enlace: "https://es.wikisource.org/wiki/Fuenteovejuna"}
+      - {author: "Pedro Calderón de la Barca", work: "La vida es sueño", year: "1635", enlace: "https://es.wikisource.org/wiki/La_vida_es_sue%C3%B1o"}
     siglo19:
-      - {author: "Benito Pérez Galdós", work: "Fortunata y Jacinta", year: "1887"}
-      - {author: "Gustavo Adolfo Bécquer", work: "Rimas", year: "1871"}
-      - {author: "Leopoldo Alas \"Clarín\"", work: "La Regenta", year: "1884-1885"}
+      - {author: "Benito Pérez Galdós", work: "Fortunata y Jacinta", year: "1887", enlace: "https://www.gutenberg.org/ebooks/17013"}
+      - {author: "Gustavo Adolfo Bécquer", work: "Rimas", year: "1871", enlace: "https://es.wikisource.org/wiki/Rimas_(B%C3%A9cquer,_1885)"}
+      - {author: "Leopoldo Alas \"Clarín\"", work: "La Regenta", year: "1884-1885", enlace: "https://es.wikisource.org/wiki/La_Regenta"}
     siglo20:
-      - {author: "Federico García Lorca", work: "Romancero gitano", year: "1928"}
+      - {author: "Federico García Lorca", work: "Romancero gitano", year: "1928", enlace: "https://www.gutenberg.org/ebooks/72665"}
       - {author: "Camilo José Cela", work: "La familia de Pascual Duarte", year: "1942"}
       - {author: "Vicente Aleixandre", work: "La destrucción o el amor", year: "1935"}
     siglo21:
@@ -35,13 +35,13 @@
   lng: -9.1393
   writers:
     clasico:
-      - {author: "Luís de Camões", work: "Os Lusíadas (Los Lusíadas)", year: "1572"}
-      - {author: "Gil Vicente", work: "Auto da Barca do Inferno (Auto de la Barca del Infierno)", year: "1517"}
+      - {author: "Luís de Camões", work: "Os Lusíadas (Los Lusíadas)", year: "1572", enlace: "https://pt.wikisource.org/wiki/Os_Lus%C3%ADadas"}
+      - {author: "Gil Vicente", work: "Auto da Barca do Inferno (Auto de la Barca del Infierno)", year: "1517", enlace: "https://pt.wikisource.org/wiki/Auto_da_Barca_do_Inferno"}
     siglo19:
-      - {author: "Eça de Queirós", work: "Os Maias (Los Maia)", year: "1888"}
-      - {author: "Camilo Castelo Branco", work: "Amor de Perdição (Amor de Perdición)", year: "1862"}
+      - {author: "Eça de Queirós", work: "Os Maias (Los Maia)", year: "1888", enlace: "https://www.gutenberg.org/ebooks/40409"}
+      - {author: "Camilo Castelo Branco", work: "Amor de Perdição (Amor de Perdición)", year: "1862", enlace: "https://www.gutenberg.org/ebooks/16425"}
     siglo20:
-      - {author: "Fernando Pessoa", work: "Mensagem (Mensaje)", year: "1934"}
+      - {author: "Fernando Pessoa", work: "Mensagem (Mensaje)", year: "1934", enlace: "https://pt.wikisource.org/wiki/Mensagem_(Fernando_Pessoa)"}
       - {author: "José Saramago", work: "Memorial do Convento (Memorial del convento)", year: "1982"}
       - {author: "António Lobo Antunes", work: "Os Cus de Judas (Los culos de Judas)", year: "1979"}
     siglo21:
@@ -55,14 +55,14 @@
   lng: 2.3522
   writers:
     clasico:
-      - {author: "Molière", work: "Tartufo (Tartuffe)", year: "1664"}
-      - {author: "Jean Racine", work: "Fedra (Phèdre)", year: "1677"}
+      - {author: "Molière", work: "Tartufo (Tartuffe)", year: "1664", enlace: "https://fr.wikisource.org/wiki/Tartuffe_ou_l%E2%80%99Imposteur"}
+      - {author: "Jean Racine", work: "Fedra (Phèdre)", year: "1677", enlace: "https://fr.wikisource.org/wiki/Ph%C3%A8dre_(Racine),_Didot,_1854"}
     siglo19:
-      - {author: "Victor Hugo", work: "Los Miserables (Les Misérables)", year: "1862"}
-      - {author: "Gustave Flaubert", work: "Madame Bovary", year: "1857"}
-      - {author: "Émile Zola", work: "Germinal", year: "1885"}
+      - {author: "Victor Hugo", work: "Los Miserables (Les Misérables)", year: "1862", enlace: "https://www.gutenberg.org/ebooks/17489"}
+      - {author: "Gustave Flaubert", work: "Madame Bovary", year: "1857", enlace: "https://www.gutenberg.org/ebooks/14155"}
+      - {author: "Émile Zola", work: "Germinal", year: "1885", enlace: "https://www.gutenberg.org/ebooks/5711"}
     siglo20:
-      - {author: "Marcel Proust", work: "En busca del tiempo perdido", year: "1913-1927"}
+      - {author: "Marcel Proust", work: "En busca del tiempo perdido", year: "1913-1927", enlace: "https://www.gutenberg.org/ebooks/2650"}
       - {author: "Albert Camus", work: "El extranjero (L'Étranger)", year: "1942"}
       - {author: "Jean-Paul Sartre", work: "La náusea (La Nausée)", year: "1938"}
     siglo21:
@@ -76,13 +76,13 @@
   lng: -0.1278
   writers:
     clasico:
-      - {author: "William Shakespeare", work: "Hamlet", year: "1600"}
+      - {author: "William Shakespeare", work: "Hamlet", year: "1600", enlace: "https://www.gutenberg.org/ebooks/1524"}
     siglo19:
-      - {author: "Charles Dickens", work: "Grandes esperanzas", year: "1861"}
-      - {author: "Jane Austen", work: "Orgullo y prejuicio", year: "1813"}
+      - {author: "Charles Dickens", work: "Grandes esperanzas", year: "1861", enlace: "https://www.gutenberg.org/ebooks/1400"}
+      - {author: "Jane Austen", work: "Orgullo y prejuicio", year: "1813", enlace: "https://www.gutenberg.org/ebooks/1342"}
     siglo20:
-      - {author: "George Orwell", work: "1984", year: "1949"}
-      - {author: "Virginia Woolf", work: "La señora Dalloway", year: "1925"}
+      - {author: "George Orwell", work: "1984", year: "1949", enlace: "https://gutenberg.ca/ebooks/orwellg-nineteeneightyfour/orwellg-nineteeneightyfour-00-e.html"}
+      - {author: "Virginia Woolf", work: "La señora Dalloway", year: "1925", enlace: "https://www.gutenberg.org/ebooks/71865"}
       - {author: "William Golding", work: "El señor de las moscas", year: "1954"}
     siglo21:
       - {author: "Kazuo Ishiguro", work: "Nunca me abandones", year: "2005"}
@@ -95,12 +95,12 @@
   lng: -6.2603
   writers:
     clasico:
-      - {author: "Jonathan Swift", work: "Los viajes de Gulliver", year: "1726"}
+      - {author: "Jonathan Swift", work: "Los viajes de Gulliver", year: "1726", enlace: "https://www.gutenberg.org/ebooks/829"}
     siglo19:
-      - {author: "Oscar Wilde", work: "El retrato de Dorian Gray", year: "1890"}
-      - {author: "Bram Stoker", work: "Drácula", year: "1897"}
+      - {author: "Oscar Wilde", work: "El retrato de Dorian Gray", year: "1890", enlace: "https://www.gutenberg.org/ebooks/174"}
+      - {author: "Bram Stoker", work: "Drácula", year: "1897", enlace: "https://www.gutenberg.org/ebooks/6534"}
     siglo20:
-      - {author: "James Joyce", work: "Ulises", year: "1922"}
+      - {author: "James Joyce", work: "Ulises", year: "1922", enlace: "https://www.gutenberg.org/ebooks/4300"}
       - {author: "Samuel Beckett", work: "Esperando a Godot", year: "1953"}
     siglo21:
       - {author: "Sally Rooney", work: "Normal People", year: "2018"}
@@ -113,12 +113,12 @@
   lng: 13.4050
   writers:
     clasico:
-      - {author: "Johann Wolfgang von Goethe", work: "Las cuitas del joven Werther", year: "1774"}
+      - {author: "Johann Wolfgang von Goethe", work: "Las cuitas del joven Werther", year: "1774", enlace: "https://www.projekt-gutenberg.org/goethe/werther/werther.html"}
     siglo19:
-      - {author: "Hermanos Grimm", work: "Cuentos de la infancia y del hogar", year: "1812"}
-      - {author: "Heinrich Heine", work: "Buch der Lieder (Libro de canciones)", year: "1827"}
+      - {author: "Hermanos Grimm", work: "Cuentos de la infancia y del hogar", year: "1812", enlace: "https://www.projekt-gutenberg.org/grimm/maerchen/index.html"}
+      - {author: "Heinrich Heine", work: "Buch der Lieder (Libro de canciones)", year: "1827", enlace: "https://www.gutenberg.org/ebooks/3498"}
     siglo20:
-      - {author: "Thomas Mann", work: "Los Buddenbrook", year: "1901"}
+      - {author: "Thomas Mann", work: "Los Buddenbrook", year: "1901", enlace: "https://www.gutenberg.org/ebooks/34811"}
       - {author: "Hermann Hesse", work: "El lobo estepario", year: "1927"}
       - {author: "Günter Grass", work: "El tambor de hojalata", year: "1959"}
     siglo21:
@@ -134,10 +134,10 @@
     clasico:
       - {author: "Anónimo", work: "Cantar de los Nibelungos (Nibelungenlied)", year: "c. 1200"}
     siglo19:
-      - {author: "Franz Grillparzer", work: "Safo (Sappho)", year: "1818"}
-      - {author: "Adalbert Stifter", work: "El verano tardío (Der Nachsommer)", year: "1857"}
+      - {author: "Franz Grillparzer", work: "Safo (Sappho)", year: "1818", enlace: "https://www.gutenberg.org/ebooks/9062"}
+      - {author: "Adalbert Stifter", work: "El verano tardío (Der Nachsommer)", year: "1857", enlace: "https://www.gutenberg.org/ebooks/8126"}
     siglo20:
-      - {author: "Robert Musil", work: "El hombre sin atributos", year: "1930-1943"}
+      - {author: "Robert Musil", work: "El hombre sin atributos", year: "1930-1943", enlace: "https://www.projekt-gutenberg.org/musil/mannohne/mannohne.html"}
       - {author: "Elias Canetti", work: "Auto de fe (Die Blendung)", year: "1935"}
       - {author: "Elfriede Jelinek", work: "La pianista (Die Klavierspielerin)", year: "1983"}
     siglo21:
@@ -167,15 +167,15 @@
   lng: 12.4964
   writers:
     clasico:
-      - {author: "Dante Alighieri", work: "La Divina Comedia", year: "1320"}
-      - {author: "Giovanni Boccaccio", work: "El Decamerón", year: "c. 1349-1353"}
-      - {author: "Francesco Petrarca", work: "Cancionero (Canzoniere)", year: "c. 1327-1368"}
+      - {author: "Dante Alighieri", work: "La Divina Comedia", year: "1320", enlace: "https://www.gutenberg.org/ebooks/1000"}
+      - {author: "Giovanni Boccaccio", work: "El Decamerón", year: "c. 1349-1353", enlace: "https://it.wikisource.org/wiki/Decameron"}
+      - {author: "Francesco Petrarca", work: "Cancionero (Canzoniere)", year: "c. 1327-1368", enlace: "https://it.wikisource.org/wiki/Opera:Canti_(Leopardi)"}
     siglo19:
-      - {author: "Alessandro Manzoni", work: "Los novios", year: "1827"}
-      - {author: "Giacomo Leopardi", work: "Cantos (Canti)", year: "1816-1837"}
+      - {author: "Alessandro Manzoni", work: "Los novios", year: "1827", enlace: "https://www.gutenberg.org/ebooks/45334"}
+      - {author: "Giacomo Leopardi", work: "Cantos (Canti)", year: "1816-1837", enlace: "https://it.wikisource.org/wiki/Opera:Canti_(Leopardi)"}
     siglo20:
       - {author: "Umberto Eco", work: "El nombre de la rosa", year: "1980"}
-      - {author: "Luigi Pirandello", work: "El difunto Matías Pascal", year: "1904"}
+      - {author: "Luigi Pirandello", work: "El difunto Matías Pascal", year: "1904", enlace: "https://liberliber.it/autori/autori-p/luigi-pirandello/il-fu-mattia-pascal/"}
       - {author: "Giuseppe Tomasi di Lampedusa", work: "El Gatopardo", year: "1958"}
     siglo21:
       - {author: "Elena Ferrante", work: "La amiga estupenda", year: "2011"}
@@ -188,8 +188,8 @@
   lng: 23.7275
   writers:
     clasico:
-      - {author: "Homero", work: "La Odisea", year: "c. siglo VIII a.C."}
-      - {author: "Sófocles", work: "Edipo Rey", year: "c. siglo V a.C."}
+      - {author: "Homero", work: "La Odisea", year: "c. siglo VIII a.C.", enlace: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135"}
+      - {author: "Sófocles", work: "Edipo Rey", year: "c. siglo V a.C.", enlace: "https://www.gutenberg.org/files/17839/17839-pdf.pdf"}
     siglo19:
       - {author: "Dionisio Solomós", work: "Himno a la libertad", year: "1823"}
     siglo20:
@@ -210,7 +210,7 @@
       - {author: "Liev Tolstói", work: "Guerra y paz", year: "1869"}
       - {author: "Fiódor Dostoyevski", work: "Crimen y castigo", year: "1866"}
     siglo20:
-      - {author: "Mijaíl Bulgákov", work: "El maestro y Margarita", year: "1967"}
+      - {author: "Mijaíl Bulgákov", work: "El maestro y Margarita", year: "1967", enlace: "https://archive.org/details/masterimargarita0000bulg"}
       - {author: "Borís Pasternak", work: "Doctor Zhivago", year: "1957"}
     siglo21: []
 
@@ -237,9 +237,9 @@
     clasico:
       - {author: "Jan Kochanowski", work: "Trenos (Treny)", year: "1580"}
     siglo19:
-      - {author: "Adam Mickiewicz", work: "Pan Tadeusz", year: "1834"}
+      - {author: "Adam Mickiewicz", work: "Pan Tadeusz", year: "1834", enlace: "https://www.gutenberg.org/ebooks/28240"}
       - {author: "Bolesław Prus", work: "La muñeca (Lalka)", year: "1890"}
-      - {author: "Henryk Sienkiewicz", work: "Quo Vadis", year: "1896"}
+      - {author: "Henryk Sienkiewicz", work: "Quo Vadis", year: "1896", enlace: "https://www.gutenberg.org/ebooks/2853"}
     siglo20:
       - {author: "Czesław Miłosz", work: "El pensamiento cautivo", year: "1953"}
       - {author: "Witold Gombrowicz", work: "Ferdydurke", year: "1937"}
@@ -259,9 +259,9 @@
       - {author: "Božena Němcová", work: "La abuela (Babička)", year: "1855"}
       - {author: "Karel Hynek Mácha", work: "Mayo (Máj)", year: "1836"}
     siglo20:
-      - {author: "Franz Kafka", work: "La metamorfosis", year: "1915"}
-      - {author: "Jaroslav Hašek", work: "Las aventuras del valeroso soldado Švejk", year: "1921-1923"}
-      - {author: "Karel Čapek", work: "R.U.R.", year: "1920"}
+      - {author: "Franz Kafka", work: "La metamorfosis", year: "1915", enlace: "https://www.gutenberg.org/ebooks/5200"}
+      - {author: "Jaroslav Hašek", work: "Las aventuras del valeroso soldado Švejk", year: "1921-1923", enlace: "https://www.gutenberg.org/ebooks/56925"}
+      - {author: "Karel Čapek", work: "R.U.R.", year: "1920", enlace: "https://www.gutenberg.org/ebooks/59112"}
     siglo21:
       - {author: "Milan Kundera", work: "La ignorancia (L'Ignorance)", year: "2000"}
 
@@ -288,8 +288,8 @@
     clasico:
       - {author: "Bálint Balassi", work: "Egy katonaének (Canción de un soldado)", year: "1589"}
     siglo19:
-      - {author: "Sándor Petőfi", work: "János vitéz (Juan el Valiente)", year: "1845"}
-      - {author: "Mór Jókai", work: "El hombre de oro (Az arany ember)", year: "1872"}
+      - {author: "Sándor Petőfi", work: "János vitéz (Juan el Valiente)", year: "1845", enlace: "https://www.gutenberg.org/ebooks/38870"}
+      - {author: "Mór Jókai", work: "El hombre de oro (Az arany ember)", year: "1872", enlace: "https://www.gutenberg.org/ebooks/40473"}
     siglo20:
       - {author: "Imre Kertész", work: "Sin destino (Sorstalanság)", year: "1975"}
       - {author: "Sándor Márai", work: "El último encuentro (A gyertyák csonkig égnek)", year: "1942"}
@@ -304,9 +304,9 @@
   lng: 26.1025
   writers:
     clasico:
-      - {author: "Dimitrie Cantemir", work: "Historia jeroglífica (Istoria ieroglifică)", year: "1705"}
+      - {author: "Dimitrie Cantemir", work: "Historia jeroglífica (Istoria ieroglifică)", year: "1705", enlace: "https://archive.org/details/IstoriaIeroglifica"}
     siglo19:
-      - {author: "Mihai Eminescu", work: "El Lucero (Luceafărul)", year: "1883"}
+      - {author: "Mihai Eminescu", work: "El Lucero (Luceafărul)", year: "1883", enlace: "https://www.gutenberg.org/ebooks/35323"}
     siglo20:
       - {author: "Marin Preda", work: "La familia Moromete (Moromeții)", year: "1955"}
       - {author: "Mircea Eliade", work: "Maitreyi", year: "1933"}
@@ -320,9 +320,9 @@
   lng: 23.3219
   writers:
     clasico:
-      - {author: "Paisiy Hilendarski", work: "Historia eslavobúlgara", year: "1762"}
+      - {author: "Paisiy Hilendarski", work: "Historia eslavobúlgara", year: "1762", enlace: "https://bg.wikisource.org/wiki/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D1%81%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD%D0%BE%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B0"}
     siglo19:
-      - {author: "Ivan Vazov", work: "Bajo el yugo (Pod igoto)", year: "1894"}
+      - {author: "Ivan Vazov", work: "Bajo el yugo (Pod igoto)", year: "1894", enlace: "https://bg.wikisource.org/wiki/%D0%9F%D0%BE%D0%B4_%D0%B8%D0%B3%D0%BE%D1%82%D0%BE"}
     siglo20:
       - {author: "Elin Pelin", work: "La familia Gerak (Geratsite)", year: "1911"}
     siglo21:
@@ -370,9 +370,9 @@
   lng: 4.9041
   writers:
     clasico:
-      - {author: "Joost van den Vondel", work: "Gijsbrecht van Aemstel", year: "1637"}
+      - {author: "Joost van den Vondel", work: "Gijsbrecht van Aemstel", year: "1637", enlace: "https://www.dbnl.org/tekst/vond001gysb01_01/"}
     siglo19:
-      - {author: "Multatuli (Eduard Douwes Dekker)", work: "Max Havelaar", year: "1860"}
+      - {author: "Multatuli (Eduard Douwes Dekker)", work: "Max Havelaar", year: "1860", enlace: "https://www.gutenberg.org/ebooks/11024"}
     siglo20:
       - {author: "Harry Mulisch", work: "El descubrimiento del cielo", year: "1992"}
     siglo21:
@@ -386,7 +386,7 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Charles De Coster", work: "La leyenda de Ulenspiegel", year: "1867"}
+      - {author: "Charles De Coster", work: "La leyenda de Ulenspiegel", year: "1867", enlace: "https://gallica.bnf.fr/ark:/12148/bpt6k6577307f"}
     siglo20:
       - {author: "Georges Simenon", work: "Pietr, el Letón", year: "1931"}
     siglo21:
@@ -399,12 +399,12 @@
   lng: 18.0686
   writers:
     clasico:
-      - {author: "Carl Michael Bellman", work: "Las epístolas de Fredman", year: "1790"}
+      - {author: "Carl Michael Bellman", work: "Las epístolas de Fredman", year: "1790", enlace: "https://runeberg.org/fredepis/"}
     siglo19:
-      - {author: "August Strindberg", work: "El cuarto rojo (Röda rummet)", year: "1879"}
-      - {author: "Verner von Heidenstam", work: "Los Carolinos (Karolinerna)", year: "1897"}
+      - {author: "August Strindberg", work: "El cuarto rojo (Röda rummet)", year: "1879", enlace: "https://www.gutenberg.org/ebooks/57052"}
+      - {author: "Verner von Heidenstam", work: "Los Carolinos (Karolinerna)", year: "1897", enlace: "https://runeberg.org/karolin/"}
     siglo20:
-      - {author: "Selma Lagerlöf", work: "El maravilloso viaje de Nils Holgersson", year: "1906"}
+      - {author: "Selma Lagerlöf", work: "El maravilloso viaje de Nils Holgersson", year: "1906", enlace: "https://runeberg.org/nilsholg/"}
       - {author: "Pär Lagerkvist", work: "Barrabás", year: "1950"}
     siglo21:
       - {author: "Stieg Larsson", work: "Los hombres que no amaban a las mujeres", year: "2005"}
@@ -417,9 +417,9 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Henrik Ibsen", work: "Casa de muñecas (Et dukkehjem)", year: "1879"}
+      - {author: "Henrik Ibsen", work: "Casa de muñecas (Et dukkehjem)", year: "1879", enlace: "https://runeberg.org/dukkhjem/"}
     siglo20:
-      - {author: "Knut Hamsun", work: "Bendición de la tierra (Markens Grøde)", year: "1917"}
+      - {author: "Knut Hamsun", work: "Bendición de la tierra (Markens Grøde)", year: "1917", enlace: "https://www.gutenberg.org/ebooks/43724"}
     siglo21:
       - {author: "Karl Ove Knausgård", work: "Mi lucha (Min kamp)", year: "2009"}
 
@@ -430,15 +430,15 @@
   lng: 12.5683
   writers:
     clasico:
-      - {author: "Ludvig Holberg", work: "El viaje subterráneo de Niels Klim", year: "1741"}
+      - {author: "Ludvig Holberg", work: "El viaje subterráneo de Niels Klim", year: "1741", enlace: "https://archive.org/details/nielsklimsunderj00holb"}
       - {author: "Ludvig Holberg", work: "Peder Paars", year: "1719"}
     siglo19:
-      - {author: "Hans Christian Andersen", work: "Cuentos de hadas", year: "1835"}
-      - {author: "Søren Kierkegaard", work: "O lo uno o lo otro (Enten-Eller)", year: "1843"}
+      - {author: "Hans Christian Andersen", work: "Cuentos de hadas", year: "1835", enlace: "https://runeberg.org/jubeventyr/"}
+      - {author: "Søren Kierkegaard", work: "O lo uno o lo otro (Enten-Eller)", year: "1843", enlace: "https://archive.org/details/enteneller01kier"}
     siglo20:
       - {author: "Karen Blixen (Isak Dinesen)", work: "Memorias de África", year: "1937"}
-      - {author: "Henrik Pontoppidan", work: "La fortuna de Per (Lykke-Per)", year: "1898-1904"}
-      - {author: "Johannes V. Jensen", work: "La larga marcha (Den lange Rejse)", year: "1908-1922"}
+      - {author: "Henrik Pontoppidan", work: "La fortuna de Per (Lykke-Per)", year: "1898-1904", enlace: "https://www.gutenberg.org/ebooks/51384"}
+      - {author: "Johannes V. Jensen", work: "La larga marcha (Den lange Rejse)", year: "1908-1922", enlace: "https://archive.org/details/TheLongJourneyByJohannesV.Jensen"}
     siglo21:
       - {author: "Jussi Adler-Olsen", work: "La mujer que arañaba las paredes", year: "2007"}
       - {author: "Solvej Balle", work: "El cálculo del volumen I", year: "2020"}
@@ -451,8 +451,8 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Elias Lönnrot", work: "Kalevala", year: "1835"}
-      - {author: "Aleksis Kivi", work: "Los siete hermanos (Seitsemän veljestä)", year: "1870"}
+      - {author: "Elias Lönnrot", work: "Kalevala", year: "1835", enlace: "https://www.gutenberg.org/ebooks/7000"}
+      - {author: "Aleksis Kivi", work: "Los siete hermanos (Seitsemän veljestä)", year: "1870", enlace: "https://www.gutenberg.org/ebooks/11940"}
     siglo20:
       - {author: "Väinö Linna", work: "El soldado desconocido (Tuntematon sotilas)", year: "1954"}
       - {author: "Mika Waltari", work: "Sinuhé, el egipcio", year: "1945"}
@@ -466,10 +466,10 @@
   lng: -21.9426
   writers:
     clasico:
-      - {author: "Anónimo", work: "Saga de Njál (Njáls saga)", year: "c. 1280"}
-      - {author: "Snorri Sturluson", work: "Heimskringla / Edda menor", year: "c. 1220"}
+      - {author: "Anónimo", work: "Saga de Njál (Njáls saga)", year: "c. 1280", enlace: "https://is.wikisource.org/wiki/Brennu-Nj%C3%A1ls_saga"}
+      - {author: "Snorri Sturluson", work: "Heimskringla / Edda menor", year: "c. 1220", enlace: "https://www.gutenberg.org/ebooks/598"}
     siglo19:
-      - {author: "Jónas Hallgrímsson", work: "Ísland (poema)", year: "1835"}
+      - {author: "Jónas Hallgrímsson", work: "Ísland (poema)", year: "1835", enlace: "https://is.wikisource.org/wiki/%C3%8Dsland_(J%C3%B3nas_Hallgr%C3%ADmsson)"}
     siglo20:
       - {author: "Halldór Laxness", work: "Gente independiente (Sjálfstætt fólk)", year: "1934"}
       - {author: "Halldór Laxness", work: "Salka Valka", year: "1931-1932"}
@@ -485,7 +485,7 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Naim Frashëri", work: "El ganado y la agricultura (Bagëti e bujqësia)", year: "1886"}
+      - {author: "Naim Frashëri", work: "El ganado y la agricultura (Bagëti e bujqësia)", year: "1886", enlace: "https://wikisource.org/wiki/Bag%C3%ABti_e_Bujq%C3%ABsija"}
     siglo20:
       - {author: "Ismail Kadare", work: "El general del ejército muerto", year: "1963"}
       - {author: "Ismail Kadare", work: "Crónica en piedra (Kronikë në gur)", year: "1971"}
@@ -502,14 +502,14 @@
   writers:
     clasico:
       - {author: "Phillis Wheatley", work: "Poems on Various Subjects, Religious and Moral", year: "1773"}
-      - {author: "Anne Bradstreet", work: "The Tenth Muse Lately Sprung Up in America", year: "1650"}
-      - {author: "Benjamin Franklin", work: "Autobiografía", year: "1793"}
+      - {author: "Anne Bradstreet", work: "The Tenth Muse Lately Sprung Up in America", year: "1650", enlace: "https://www.gutenberg.org/ebooks/26485"}
+      - {author: "Benjamin Franklin", work: "Autobiografía", year: "1793", enlace: "https://www.gutenberg.org/ebooks/148"}
     siglo19:
-      - {author: "Mark Twain", work: "Las aventuras de Huckleberry Finn", year: "1884"}
-      - {author: "Nathaniel Hawthorne", work: "La letra escarlata", year: "1850"}
-      - {author: "Herman Melville", work: "Moby-Dick", year: "1851"}
+      - {author: "Mark Twain", work: "Las aventuras de Huckleberry Finn", year: "1884", enlace: "https://www.gutenberg.org/ebooks/76"}
+      - {author: "Nathaniel Hawthorne", work: "La letra escarlata", year: "1850", enlace: "https://www.gutenberg.org/ebooks/25344"}
+      - {author: "Herman Melville", work: "Moby-Dick", year: "1851", enlace: "https://www.gutenberg.org/ebooks/2701"}
     siglo20:
-      - {author: "F. Scott Fitzgerald", work: "El gran Gatsby", year: "1925"}
+      - {author: "F. Scott Fitzgerald", work: "El gran Gatsby", year: "1925", enlace: "https://www.gutenberg.org/ebooks/64317"}
       - {author: "Harper Lee", work: "Matar a un ruiseñor", year: "1960"}
       - {author: "Toni Morrison", work: "Beloved", year: "1987"}
     siglo21:
@@ -524,14 +524,14 @@
   lng: -75.6972
   writers:
     clasico:
-      - {author: "Frances Brooke", work: "The History of Emily Montague", year: "1769"}
+      - {author: "Frances Brooke", work: "The History of Emily Montague", year: "1769", enlace: "https://www.gutenberg.org/ebooks/35438"}
     siglo19:
-      - {author: "Susanna Moodie", work: "Roughing It in the Bush", year: "1852"}
-      - {author: "Catharine Parr Traill", work: "The Backwoods of Canada", year: "1836"}
+      - {author: "Susanna Moodie", work: "Roughing It in the Bush", year: "1852", enlace: "https://www.gutenberg.org/ebooks/29249"}
+      - {author: "Catharine Parr Traill", work: "The Backwoods of Canada", year: "1836", enlace: "https://www.gutenberg.org/ebooks/16179"}
     siglo20:
       - {author: "Margaret Atwood", work: "El cuento de la criada", year: "1985"}
       - {author: "Michael Ondaatje", work: "El paciente inglés", year: "1992"}
-      - {author: "Lucy Maud Montgomery", work: "Ana de las Tejas Verdes", year: "1908"}
+      - {author: "Lucy Maud Montgomery", work: "Ana de las Tejas Verdes", year: "1908", enlace: "https://www.gutenberg.org/ebooks/45"}
     siglo21:
       - {author: "Yann Martel", work: "Vida de Pi", year: "2001"}
       - {author: "Margaret Atwood", work: "Los testamentos", year: "2019"}
@@ -544,16 +544,16 @@
   lng: -99.1332
   writers:
     clasico:
-      - {author: "Sor Juana Inés de la Cruz", work: "Primero sueño", year: "1692"}
-      - {author: "Bernal Díaz del Castillo", work: "Historia verdadera de la conquista de la Nueva España", year: "1568"}
-      - {author: "Carlos de Sigüenza y Góngora", work: "Infortunios de Alonso Ramírez", year: "1690"}
+      - {author: "Sor Juana Inés de la Cruz", work: "Primero sueño", year: "1692", enlace: "https://es.wikisource.org/wiki/Primero_Sue%C3%B1o"}
+      - {author: "Bernal Díaz del Castillo", work: "Historia verdadera de la conquista de la Nueva España", year: "1568", enlace: "https://www.cervantesvirtual.com/obra/historia-verdadera-de-la-conquista-de-la-nueva-espana-tomo-i--0/"}
+      - {author: "Carlos de Sigüenza y Góngora", work: "Infortunios de Alonso Ramírez", year: "1690", enlace: "https://archive.org/details/infortuniosdealo00siguoft"}
     siglo19:
-      - {author: "Ignacio Manuel Altamirano", work: "Clemencia", year: "1869"}
-      - {author: "José Joaquín Fernández de Lizardi", work: "El Periquillo Sarniento", year: "1816"}
-      - {author: "Manuel Payno", work: "Los bandidos de Río Frío", year: "1891"}
+      - {author: "Ignacio Manuel Altamirano", work: "Clemencia", year: "1869", enlace: "https://es.wikisource.org/wiki/Clemencia_(Altamirano)"}
+      - {author: "José Joaquín Fernández de Lizardi", work: "El Periquillo Sarniento", year: "1816", enlace: "https://es.wikisource.org/wiki/Archivo:El_periquillo_sarniento_Tomo_1_(1884).pdf"}
+      - {author: "Manuel Payno", work: "Los bandidos de Río Frío", year: "1891", enlace: "https://es.wikisource.org/wiki/Los_bandidos_de_R%C3%ADo_Fr%C3%ADo_-_Tomo_I"}
     siglo20:
       - {author: "Juan Rulfo", work: "Pedro Páramo", year: "1955"}
-      - {author: "Mariano Azuela", work: "Los de abajo", year: "1915"}
+      - {author: "Mariano Azuela", work: "Los de abajo", year: "1915", enlace: "https://www.cervantesvirtual.com/obra/los-de-abajo/"}
       - {author: "Carlos Fuentes", work: "La muerte de Artemio Cruz", year: "1962"}
     siglo21:
       - {author: "Valeria Luiselli", work: "Los ingrávidos", year: "2011"}
@@ -569,11 +569,11 @@
   lng: -90.5069
   writers:
     clasico:
-      - {author: "Rafael Landívar", work: "Rusticatio Mexicana", year: "1781"}
-      - {author: "Francisco Antonio de Fuentes y Guzmán", work: "Recordación Florida", year: "1690"}
+      - {author: "Rafael Landívar", work: "Rusticatio Mexicana", year: "1781", enlace: "https://archive.org/details/raphaelislandiva00land"}
+      - {author: "Francisco Antonio de Fuentes y Guzmán", work: "Recordación Florida", year: "1690", enlace: "https://archive.org/details/historiadeguat01franguat"}
     siglo19:
-      - {author: "José Milla y Vidaurre", work: "La hija del Adelantado", year: "1866"}
-      - {author: "José Milla y Vidaurre", work: "El visitador", year: "1868"}
+      - {author: "José Milla y Vidaurre", work: "La hija del Adelantado", year: "1866", enlace: "https://www.cervantesvirtual.com/obra/la-hija-del-adelantado-novela-historica--0/"}
+      - {author: "José Milla y Vidaurre", work: "El visitador", year: "1868", enlace: "https://archive.org/details/elvisitnovel00jilsguat"}
     siglo20:
       - {author: "Miguel Ángel Asturias", work: "El Señor Presidente", year: "1946"}
       - {author: "Miguel Ángel Asturias", work: "Hombres de maíz", year: "1949"}
@@ -589,9 +589,9 @@
   lng: -86.2362
   writers:
     clasico:
-      - {author: "Anónimo", work: "El Güegüense (o Macho Ratón)", year: "c. 1650"}
+      - {author: "Anónimo", work: "El Güegüense (o Macho Ratón)", year: "c. 1650", enlace: "https://archive.org/details/elgueguensebaile0000unse"}
     siglo19:
-      - {author: "Rubén Darío", work: "Azul...", year: "1888"}
+      - {author: "Rubén Darío", work: "Azul...", year: "1888", enlace: "https://archive.org/details/azul-ruben-dario"}
     siglo20:
       - {author: "Ernesto Cardenal", work: "Hora 0", year: "1960"}
       - {author: "Sergio Ramírez", work: "Margarita, está linda la mar", year: "1998"}
@@ -617,10 +617,10 @@
   lng: -82.3666
   writers:
     clasico:
-      - {author: "Silvestre de Balboa", work: "Espejo de paciencia", year: "1608"}
+      - {author: "Silvestre de Balboa", work: "Espejo de paciencia", year: "1608", enlace: "https://www.biblioteca-antologica.org/es/wp-content/uploads/2019/09/BALBOA-y-TROYA-Espejo-de-paciencia.pdf"}
     siglo19:
-      - {author: "José Martí", work: "Versos sencillos", year: "1891"}
-      - {author: "Cirilo Villaverde", work: "Cecilia Valdés", year: "1882"}
+      - {author: "José Martí", work: "Versos sencillos", year: "1891", enlace: "https://es.wikisource.org/wiki/Versos_sencillos"}
+      - {author: "Cirilo Villaverde", work: "Cecilia Valdés", year: "1882", enlace: "https://www.gutenberg.org/ebooks/28281"}
     siglo20:
       - {author: "Alejo Carpentier", work: "El reino de este mundo", year: "1949"}
       - {author: "José Lezama Lima", work: "Paradiso", year: "1966"}
@@ -636,7 +636,7 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Manuel de Jesús Galván", work: "Enriquillo", year: "1882"}
+      - {author: "Manuel de Jesús Galván", work: "Enriquillo", year: "1882", enlace: "https://archive.org/details/enriquillo-manuel-de-jesus-galvan"}
     siglo20:
       - {author: "Juan Bosch", work: "La Mañosa", year: "1936"}
       - {author: "Pedro Mir", work: "Hay un país en el mundo", year: "1949"}
@@ -652,7 +652,7 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Manuel Zeno Gandía", work: "La Charca", year: "1894"}
+      - {author: "Manuel Zeno Gandía", work: "La Charca", year: "1894", enlace: "https://ia803203.us.archive.org/18/items/la-charca-manuel-zeno-gandia/La%20Charca%20-%20Manuel%20Zeno%20Gandia.pdf"}
     siglo20:
       - {author: "Luis Rafael Sánchez", work: "La guaracha del Macho Camacho", year: "1976"}
       - {author: "Rosario Ferré", work: "Papeles de Pandora", year: "1976"}
@@ -669,7 +669,7 @@
     siglo19:
       - {author: "Émeric Bergeaud", work: "Stella", year: "1859"}
     siglo20:
-      - {author: "Jacques Roumain", work: "Gobernadores del rocío", year: "1944"}
+      - {author: "Jacques Roumain", work: "Gobernadores del rocío", year: "1944", enlace: "https://archive.org/details/gouverneursdelar00roum"}
       - {author: "Jacques Stephen Alexis", work: "Compère Général Soleil", year: "1955"}
     siglo21:
       - {author: "Dany Laferrière", work: "El enigma del retorno", year: "2009"}
@@ -685,8 +685,8 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "José Hernández", work: "Martín Fierro", year: "1872"}
-      - {author: "Domingo Faustino Sarmiento", work: "Facundo (Civilización y barbarie)", year: "1845"}
+      - {author: "José Hernández", work: "Martín Fierro", year: "1872", enlace: "https://es.wikisource.org/wiki/Archivo:El_gaucho_Martin_Fierro_-_Jose_Hernandez.pdf"}
+      - {author: "Domingo Faustino Sarmiento", work: "Facundo (Civilización y barbarie)", year: "1845", enlace: "https://es.wikisource.org/wiki/Archivo:Sarmiento_-_Facundo._Civilizaci%C3%B3n_y_barbarie_(1924).pdf"}
     siglo20:
       - {author: "Jorge Luis Borges", work: "Ficciones", year: "1944"}
       - {author: "Julio Cortázar", work: "Rayuela", year: "1963"}
@@ -703,9 +703,9 @@
   lng: -70.6693
   writers:
     clasico:
-      - {author: "Alonso de Ercilla", work: "La Araucana", year: "1569"}
+      - {author: "Alonso de Ercilla", work: "La Araucana", year: "1569", enlace: "https://es.wikisource.org/wiki/La_Araucana"}
     siglo19:
-      - {author: "Alberto Blest Gana", work: "Martín Rivas", year: "1862"}
+      - {author: "Alberto Blest Gana", work: "Martín Rivas", year: "1862", enlace: "https://archive.org/details/martin-rivas-alberto-blest-gana"}
     siglo20:
       - {author: "Pablo Neruda", work: "Veinte poemas de amor y una canción desesperada", year: "1924"}
       - {author: "Gabriela Mistral", work: "Desolación", year: "1922"}
@@ -722,10 +722,10 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Juan Zorrilla de San Martín", work: "Tabaré", year: "1888"}
+      - {author: "Juan Zorrilla de San Martín", work: "Tabaré", year: "1888", enlace: "https://archive.org/details/JuanZorrillaDeSanMartinTabare"}
     siglo20:
       - {author: "Juan Carlos Onetti", work: "La vida breve", year: "1950"}
-      - {author: "Horacio Quiroga", work: "Cuentos de amor de locura y de muerte", year: "1917"}
+      - {author: "Horacio Quiroga", work: "Cuentos de amor de locura y de muerte", year: "1917", enlace: "https://es.wikisource.org/wiki/Archivo:Cuentos_de_amor_de_locura_y_de_muerte_-_Horacio_Quiroga.pdf"}
     siglo21:
       - {author: "Fernanda Trías", work: "Mugre rosa", year: "2020"}
 
@@ -737,8 +737,8 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Machado de Assis", work: "Dom Casmurro", year: "1899"}
-      - {author: "Machado de Assis", work: "Memórias Póstumas de Brás Cubas", year: "1881"}
+      - {author: "Machado de Assis", work: "Dom Casmurro", year: "1899", enlace: "http://www.dominiopublico.gov.br/pesquisa/DetalheObraDownload.do?co_obra=1888&co_midia=2"}
+      - {author: "Machado de Assis", work: "Memórias Póstumas de Brás Cubas", year: "1881", enlace: "http://www.dominiopublico.gov.br/pesquisa/DetalheObraDownload.do?co_obra=2038&co_midia=2"}
     siglo20:
       - {author: "João Guimarães Rosa", work: "Gran Sertón: Veredas", year: "1956"}
       - {author: "Jorge Amado", work: "Doña Flor y sus dos maridos", year: "1966"}
@@ -753,9 +753,9 @@
   lng: -77.0428
   writers:
     clasico:
-      - {author: "Inca Garcilaso de la Vega", work: "Comentarios Reales de los Incas", year: "1609"}
+      - {author: "Inca Garcilaso de la Vega", work: "Comentarios Reales de los Incas", year: "1609", enlace: "https://archive.org/details/comentarios-reales-de-los-incas"}
     siglo19:
-      - {author: "Ricardo Palma", work: "Tradiciones Peruanas", year: "1872"}
+      - {author: "Ricardo Palma", work: "Tradiciones Peruanas", year: "1872", enlace: "https://archive.org/details/tradicionesperua0000palm_b8t3"}
     siglo20:
       - {author: "Mario Vargas Llosa", work: "La ciudad y los perros", year: "1963"}
       - {author: "Mario Vargas Llosa", work: "Conversación en La Catedral", year: "1969"}
@@ -770,12 +770,12 @@
   lng: -74.0721
   writers:
     clasico:
-      - {author: "Juan Rodríguez Freyle", work: "El Carnero", year: "1638"}
+      - {author: "Juan Rodríguez Freyle", work: "El Carnero", year: "1638", enlace: "https://archive.org/details/el-carnero-juan-rodriguez-freyle"}
     siglo19:
-      - {author: "Jorge Isaacs", work: "María", year: "1867"}
+      - {author: "Jorge Isaacs", work: "María", year: "1867", enlace: "https://es.wikisource.org/wiki/Mar%C3%ADa_(Jorge_Isaacs)"}
     siglo20:
       - {author: "Gabriel García Márquez", work: "Cien años de soledad", year: "1967"}
-      - {author: "José Eustasio Rivera", work: "La vorágine", year: "1924"}
+      - {author: "José Eustasio Rivera", work: "La vorágine", year: "1924", enlace: "https://es.wikisource.org/wiki/La_vor%C3%A1gine"}
     siglo21:
       - {author: "Juan Gabriel Vásquez", work: "El ruido de las cosas al caer", year: "2011"}
       - {author: "Laura Restrepo", work: "Delirio", year: "2004"}
@@ -791,7 +791,7 @@
     siglo20:
       - {author: "Rómulo Gallegos", work: "Doña Bárbara", year: "1929"}
       - {author: "Arturo Uslar Pietri", work: "Las lanzas coloradas", year: "1931"}
-      - {author: "Teresa de la Parra", work: "Ifigenia", year: "1924"}
+      - {author: "Teresa de la Parra", work: "Ifigenia", year: "1924", enlace: "https://archive.org/details/ifigenia.teresadelaparra"}
     siglo21:
       - {author: "Karina Sainz Borgo", work: "La hija de la española", year: "2019"}
 
@@ -803,7 +803,7 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Juan León Mera", work: "Cumandá", year: "1879"}
+      - {author: "Juan León Mera", work: "Cumandá", year: "1879", enlace: "https://es.wikisource.org/wiki/Cumand%C3%A1"}
     siglo20:
       - {author: "Jorge Icaza", work: "Huasipungo", year: "1934"}
       - {author: "Demetrio Aguilera Malta", work: "Don Goyo", year: "1933"}
@@ -818,9 +818,9 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Nataniel Aguirre", work: "Juan de la Rosa", year: "1885"}
+      - {author: "Nataniel Aguirre", work: "Juan de la Rosa", year: "1885", enlace: "https://www.cervantesvirtual.com/obra-visor/juan-de-la-rosa-memorias-del-ultimo-soldado-de-la-independencia--0/html/"}
     siglo20:
-      - {author: "Alcides Arguedas", work: "Raza de bronce", year: "1919"}
+      - {author: "Alcides Arguedas", work: "Raza de bronce", year: "1919", enlace: "https://archive.org/details/raza-de-bronce-alcides-arguedas"}
     siglo21: []
 
 - country: "Paraguay"
@@ -845,14 +845,14 @@
   lng: 116.4074
   writers:
     clasico:
-      - {author: "Cao Xueqin", work: "Sueño en el pabellón rojo", year: "1791"}
-      - {author: "Wu Cheng'en", work: "Viaje al Oeste", year: "1592"}
-      - {author: "Luo Guanzhong", work: "Romance de los Tres Reinos", year: "c. siglo XIV"}
+      - {author: "Cao Xueqin", work: "Sueño en el pabellón rojo", year: "1791", enlace: "https://www.gutenberg.org/ebooks/24264"}
+      - {author: "Wu Cheng'en", work: "Viaje al Oeste", year: "1592", enlace: "https://www.gutenberg.org/ebooks/23962"}
+      - {author: "Luo Guanzhong", work: "Romance de los Tres Reinos", year: "c. siglo XIV", enlace: "https://www.gutenberg.org/ebooks/23950"}
     siglo19:
-      - {author: "Li Ruzhen", work: "Flores en el espejo", year: "1827"}
+      - {author: "Li Ruzhen", work: "Flores en el espejo", year: "1827", enlace: "https://zh.wikisource.org/wiki/%E9%8F%A1%E8%8A%B1%E7%B7%A3"}
       - {author: "Han Bangqing", work: "Las flores de Shanghái", year: "1892"}
     siglo20:
-      - {author: "Lu Xun", work: "Diario de un loco", year: "1918"}
+      - {author: "Lu Xun", work: "Diario de un loco", year: "1918", enlace: "https://zh.wikisource.org/zh-hans/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98"}
       - {author: "Lao She", work: "El camello Xiangzi", year: "1936"}
       - {author: "Ba Jin", work: "Familia", year: "1933"}
     siglo21:
@@ -867,7 +867,7 @@
   lng: 139.6503
   writers:
     clasico:
-      - {author: "Murasaki Shikibu", work: "La historia de Genji", year: "1008"}
+      - {author: "Murasaki Shikibu", work: "La historia de Genji", year: "1008", enlace: "https://www.gutenberg.org/ebooks/68356"}
       - {author: "Sei Shōnagon", work: "El libro de la almohada", year: "c. 1002"}
       - {author: "Matsuo Bashō", work: "Sendas de Oku", year: "1702"}
     siglo19:
@@ -890,15 +890,15 @@
   lng: 77.2090
   writers:
     clasico:
-      - {author: "Valmiki", work: "Ramayana", year: "c. siglo V a.C."}
-      - {author: "Vyasa", work: "Majabhárata", year: "c. siglo IV a.C.-IV d.C."}
-      - {author: "Kalidasa", work: "Shakuntala", year: "c. siglo IV-V"}
+      - {author: "Valmiki", work: "Ramayana", year: "c. siglo V a.C.", enlace: "https://www.gutenberg.org/ebooks/24869"}
+      - {author: "Vyasa", work: "Majabhárata", year: "c. siglo IV a.C.-IV d.C.", enlace: "https://sacred-texts.com/hin/m01/index.htm"}
+      - {author: "Kalidasa", work: "Shakuntala", year: "c. siglo IV-V", enlace: "https://www.gutenberg.org/ebooks/16659"}
     siglo19:
-      - {author: "Bankim Chandra Chattopadhyay", work: "Anandamath", year: "1882"}
-      - {author: "Bankim Chandra Chattopadhyay", work: "Durgeshnandini", year: "1865"}
+      - {author: "Bankim Chandra Chattopadhyay", work: "Anandamath", year: "1882", enlace: "https://archive.org/details/anandamath-bangla"}
+      - {author: "Bankim Chandra Chattopadhyay", work: "Durgeshnandini", year: "1865", enlace: "https://archive.org/details/Durgeshnandini"}
     siglo20:
-      - {author: "Rabindranath Tagore", work: "Gitanjali", year: "1910"}
-      - {author: "Munshi Premchand", work: "Godaan (El don de una vaca)", year: "1936"}
+      - {author: "Rabindranath Tagore", work: "Gitanjali", year: "1910", enlace: "https://www.gutenberg.org/ebooks/7164"}
+      - {author: "Munshi Premchand", work: "Godaan (El don de una vaca)", year: "1936", enlace: "https://archive.org/details/Godan-Hindi"}
       - {author: "R. K. Narayan", work: "El guía", year: "1958"}
     siglo21:
       - {author: "Aravind Adiga", work: "El tigre blanco", year: "2008"}
@@ -912,13 +912,13 @@
   lng: 73.0479
   writers:
     clasico:
-      - {author: "Shah Abdul Latif Bhittai", work: "Shah Jo Risalo", year: "c. siglo XVIII"}
-      - {author: "Waris Shah", work: "Heer Ranjha", year: "1766"}
+      - {author: "Shah Abdul Latif Bhittai", work: "Shah Jo Risalo", year: "c. siglo XVIII", enlace: "https://archive.org/details/Shah-Jo-Risalo_303"}
+      - {author: "Waris Shah", work: "Heer Ranjha", year: "1766", enlace: "https://archive.org/details/HEERWARISSHAH"}
     siglo19:
-      - {author: "Mirza Ghalib", work: "Diwan-e-Ghalib", year: "1841"}
+      - {author: "Mirza Ghalib", work: "Diwan-e-Ghalib", year: "1841", enlace: "https://wikisource.org/wiki/%D8%AF%DB%8C%D9%88%D8%A7%D9%86_%D8%BA%D8%A7%D9%84%D8%A8"}
     siglo20:
-      - {author: "Allama Iqbal", work: "Bang-e-Dara", year: "1924"}
-      - {author: "Saadat Hasan Manto", work: "Toba Tek Singh", year: "1955"}
+      - {author: "Allama Iqbal", work: "Bang-e-Dara", year: "1924", enlace: "https://archive.org/details/bangidara00iqbauoft"}
+      - {author: "Saadat Hasan Manto", work: "Toba Tek Singh", year: "1955", enlace: "http://www.columbia.edu/itc/mealac/pritchett/00urdu/tobateksingh/index.html"}
     siglo21:
       - {author: "Mohsin Hamid", work: "El fundamentalista reticente", year: "2007"}
       - {author: "Kamila Shamsie", work: "Fuego amigo (Home Fire)", year: "2017"}
@@ -930,12 +930,12 @@
   lng: 51.3890
   writers:
     clasico:
-      - {author: "Ferdowsi", work: "Shahnameh (El libro de los reyes)", year: "1010"}
-      - {author: "Rumi", work: "Masnavi", year: "c. siglo XIII"}
-      - {author: "Hafez", work: "Diwan de Hafez", year: "c. siglo XIV"}
+      - {author: "Ferdowsi", work: "Shahnameh (El libro de los reyes)", year: "1010", enlace: "https://www.sacred-texts.com/neu/shahnama.txt"}
+      - {author: "Rumi", work: "Masnavi", year: "c. siglo XIII", enlace: "https://sacred-texts.com/isl/masnavi/index.htm"}
+      - {author: "Hafez", work: "Diwan de Hafez", year: "c. siglo XIV", enlace: "https://www.gutenberg.org/ebooks/74883"}
     siglo19: []
     siglo20:
-      - {author: "Sadegh Hedayat", work: "La lechuza ciega", year: "1937"}
+      - {author: "Sadegh Hedayat", work: "La lechuza ciega", year: "1937", enlace: "https://archive.org/details/blindwlbysadeqhedayat"}
       - {author: "Forugh Farrokhzad", work: "Otro nacimiento (Tavallodi Digar)", year: "1963"}
     siglo21:
       - {author: "Marjane Satrapi", work: "Persépolis", year: "2000"}
@@ -964,9 +964,9 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Butrus al-Bustani", work: "Da'irat al-Ma'arif", year: "1876"}
+      - {author: "Butrus al-Bustani", work: "Da'irat al-Ma'arif", year: "1876", enlace: "https://archive.org/details/AAlexandrina-064312"}
     siglo20:
-      - {author: "Khalil Gibran", work: "El profeta", year: "1923"}
+      - {author: "Khalil Gibran", work: "El profeta", year: "1923", enlace: "https://www.gutenberg.org/ebooks/58585"}
     siglo21:
       - {author: "Amin Maalouf", work: "Los desorientados", year: "2012"}
       - {author: "Rabih Alameddine", work: "Una mujer innecesaria", year: "2013"}
@@ -978,7 +978,7 @@
   lng: 44.3661
   writers:
     clasico:
-      - {author: "Al-Mutanabbi", work: "Diwan de Al-Mutanabbi", year: "c. 950"}
+      - {author: "Al-Mutanabbi", work: "Diwan de Al-Mutanabbi", year: "c. 950", enlace: "https://archive.org/details/ar107diwan14"}
     siglo19: []
     siglo20:
       - {author: "Badr Shakir al-Sayyab", work: "Canción de la lluvia", year: "1960"}
@@ -993,9 +993,9 @@
   lng: 36.2765
   writers:
     clasico:
-      - {author: "Abu Firas al-Hamdani", work: "Diwan (al-Rumiyyat)", year: "c. 962"}
+      - {author: "Abu Firas al-Hamdani", work: "Diwan (al-Rumiyyat)", year: "c. 962", enlace: "https://ar.wikisource.org/wiki/%D9%85%D9%84%D9%81:%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A3%D8%A8%D9%8A_%D9%81%D8%B1%D8%A7%D8%B3_%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D8%A7%D9%86%D9%8A.pdf"}
     siglo19:
-      - {author: "Francis Marrash", work: "El bosque de la verdad", year: "1865"}
+      - {author: "Francis Marrash", work: "El bosque de la verdad", year: "1865", enlace: "https://archive.org/details/Heliopolis1957_gmail_20180716"}
     siglo20:
       - {author: "Adonis", work: "Cantos de Mihyar el Damasceno", year: "1961"}
     siglo21:
@@ -1044,7 +1044,7 @@
   lng: 105.8542
   writers:
     clasico:
-      - {author: "Nguyễn Du", work: "El cuento de Kieu", year: "c. 1820"}
+      - {author: "Nguyễn Du", work: "El cuento de Kieu", year: "c. 1820", enlace: "https://www.gutenberg.org/ebooks/70156"}
       - {author: "Nguyễn Trãi", work: "Gran proclama de la pacificación", year: "1428"}
       - {author: "Hồ Xuân Hương", work: "Poemas", year: "c. 1772-1822"}
     siglo19:
@@ -1064,8 +1064,8 @@
   lng: 106.8456
   writers:
     clasico:
-      - {author: "Mpu Prapanca", work: "Nagarakretagama", year: "1365"}
-      - {author: "Mpu Tantular", work: "Kakawin Sutasoma", year: "c. siglo XIV"}
+      - {author: "Mpu Prapanca", work: "Nagarakretagama", year: "1365", enlace: "https://archive.org/details/KakawinNagarakertagama"}
+      - {author: "Mpu Tantular", work: "Kakawin Sutasoma", year: "c. siglo XIV", enlace: "https://archive.org/details/kakawin-sutasoma"}
       - {author: "Anónimo (corte javanesa)", work: "Kakawin Ramayana", year: "c. siglo IX-X"}
     siglo19: []
     siglo20:
@@ -1082,10 +1082,10 @@
   lng: 120.9842
   writers:
     clasico:
-      - {author: "Anónimo (atribuido a José de la Cruz)", work: "Ibong Adarna", year: "c. siglo XVIII"}
+      - {author: "Anónimo (atribuido a José de la Cruz)", work: "Ibong Adarna", year: "c. siglo XVIII", enlace: "https://www.gutenberg.org/ebooks/16157"}
     siglo19:
-      - {author: "José Rizal", work: "Noli me tangere", year: "1887"}
-      - {author: "José Rizal", work: "El filibusterismo", year: "1891"}
+      - {author: "José Rizal", work: "Noli me tangere", year: "1887", enlace: "https://www.gutenberg.org/ebooks/47584"}
+      - {author: "José Rizal", work: "El filibusterismo", year: "1891", enlace: "https://www.gutenberg.org/ebooks/30903"}
     siglo20:
       - {author: "Nick Joaquín", work: "La mujer que tenía dos ombligos", year: "1961"}
       - {author: "F. Sionil José", work: "Po-on (Ocaso)", year: "1984"}
@@ -1100,8 +1100,8 @@
   lng: 69.2075
   writers:
     clasico:
-      - {author: "Khwaja Abdullah Ansari", work: "Munajat (Invocaciones íntimas)", year: "c. siglo XI"}
-      - {author: "Jami", work: "Haft Awrang (Los siete tronos)", year: "c. 1480"}
+      - {author: "Khwaja Abdullah Ansari", work: "Munajat (Invocaciones íntimas)", year: "c. siglo XI", enlace: "https://fa.wikisource.org/wiki/%D9%BE%D8%AF%DB%8C%D8%AF%D8%A2%D9%88%D8%B1%D9%86%D8%AF%D9%87:%D8%AE%D9%88%D8%A7%D8%AC%D9%87_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%D9%87_%D8%A7%D9%86%D8%B5%D8%A7%D8%B1%DB%8C"}
+      - {author: "Jami", work: "Haft Awrang (Los siete tronos)", year: "c. 1480", enlace: "https://fa.wikisource.org/wiki/%D8%B1%D8%AF%D9%87:%D9%87%D9%81%D8%AA_%D8%A7%D9%88%D8%B1%D9%86%DA%AF_%D8%AC%D8%A7%D9%85%DB%8C"}
     siglo19: []
     siglo20: []
     siglo21:
@@ -1116,9 +1116,9 @@
   lng: 90.4125
   writers:
     clasico:
-      - {author: "Poetas Siddhacharya (anónimos)", work: "Charyapada", year: "c. siglos VIII-XII"}
+      - {author: "Poetas Siddhacharya (anónimos)", work: "Charyapada", year: "c. siglos VIII-XII", enlace: "https://archive.org/details/dli.calcutta.10685"}
     siglo19:
-      - {author: "Rabindranath Tagore", work: "La barca dorada (Sonar Tari)", year: "1894"}
+      - {author: "Rabindranath Tagore", work: "La barca dorada (Sonar Tari)", year: "1894", enlace: "https://bn.wikisource.org/wiki/%E0%A6%B8%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%B0_%E0%A6%A4%E0%A6%B0%E0%A7%80_(%E0%A7%A7%E0%A7%AE%E0%A7%AF%E0%A7%A9)"}
     siglo20:
       - {author: "Kazi Nazrul Islam", work: "El rebelde (Bidrohi)", year: "1922"}
     siglo21:
@@ -1132,7 +1132,7 @@
   lng: 79.8612
   writers:
     clasico:
-      - {author: "Mahanama Thera", work: "Mahavamsa (La Gran Crónica)", year: "c. siglo V-VI"}
+      - {author: "Mahanama Thera", work: "Mahavamsa (La Gran Crónica)", year: "c. siglo V-VI", enlace: "https://archive.org/details/mahavamsagreatch00geigrich"}
     siglo19: []
     siglo20:
       - {author: "Martin Wickramasinghe", work: "Gamperaliya", year: "1944"}
@@ -1147,9 +1147,9 @@
   lng: 100.5018
   writers:
     clasico:
-      - {author: "Rama I (Phra Phutthayotfa Chulalok)", work: "Ramakien", year: "c. 1797"}
+      - {author: "Rama I (Phra Phutthayotfa Chulalok)", work: "Ramakien", year: "c. 1797", enlace: "https://archive.org/details/ramayanamasterpi00phut"}
     siglo19:
-      - {author: "Sunthorn Phu", work: "Phra Aphai Mani", year: "1822-1844"}
+      - {author: "Sunthorn Phu", work: "Phra Aphai Mani", year: "1822-1844", enlace: "https://th.wikisource.org/wiki/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AD%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%A1%E0%B8%93%E0%B8%B5"}
     siglo20:
       - {author: "Kukrit Pramoj", work: "Cuatro reinados (Si Phaendin)", year: "1953"}
     siglo21:
@@ -1162,9 +1162,9 @@
   lng: 44.8271
   writers:
     clasico:
-      - {author: "Shota Rustaveli", work: "El caballero de la piel de tigre", year: "c. 1190"}
+      - {author: "Shota Rustaveli", work: "El caballero de la piel de tigre", year: "c. 1190", enlace: "https://sacred-texts.com/asia/mps/index.htm"}
     siglo19:
-      - {author: "Ilia Chavchavadze", work: "¿Es un ser humano? (Katsia-adamiani?!)", year: "1863"}
+      - {author: "Ilia Chavchavadze", work: "¿Es un ser humano? (Katsia-adamiani?!)", year: "1863", enlace: "https://ka.wikisource.org/wiki/%E1%83%90%E1%83%95%E1%83%A2%E1%83%9D%E1%83%A0%E1%83%98:%E1%83%98%E1%83%9A%E1%83%98%E1%83%90_%E1%83%AD%E1%83%90%E1%83%95%E1%83%A9%E1%83%90%E1%83%95%E1%83%90%E1%83%AB%E1%83%94"}
     siglo20:
       - {author: "Nodar Dumbadze", work: "Yo, la abuela, Iliko y Ilarión", year: "1960"}
     siglo21:
@@ -1177,11 +1177,11 @@
   lng: 44.4991
   writers:
     clasico:
-      - {author: "Grigor Narekatsi", work: "Libro de Lamentaciones (Narek)", year: "c. 1002"}
+      - {author: "Grigor Narekatsi", work: "Libro de Lamentaciones (Narek)", year: "c. 1002", enlace: "https://hy.wikisource.org/wiki/%D5%84%D5%A1%D5%BF%D5%A5%D5%A1%D5%B6_%D5%85%D5%B2%D5%A2%D5%A5%D6%80%D5%A3%D5%A1%D5%A9%D5%A5%D5%A1%D5%B6"}
     siglo19:
-      - {author: "Hovhannes Tumanyan", work: "Anush", year: "1890"}
+      - {author: "Hovhannes Tumanyan", work: "Anush", year: "1890", enlace: "https://hy.wikisource.org/wiki/%D4%B1%D5%B6%D5%B8%D6%82%D5%B7"}
     siglo20:
-      - {author: "Yeghishe Charents", work: "País de Nairi (Erkir Nairi)", year: "1926"}
+      - {author: "Yeghishe Charents", work: "País de Nairi (Erkir Nairi)", year: "1926", enlace: "https://hy.wikisource.org/wiki/%D4%87%D6%80%D5%AF%D5%AB%D6%80_%D5%86%D5%A1%D5%AB%D6%80%D5%AB"}
     siglo21:
       - {author: "Narine Abgaryan", work: "Tres manzanas cayeron del cielo", year: "2015"}
 
@@ -1194,9 +1194,9 @@
   lng: 31.2357
   writers:
     clasico:
-      - {author: "Anónimo", work: "Las mil y una noches", year: "compilación gradual, forma fijada en El Cairo, s. XVIII"}
+      - {author: "Anónimo", work: "Las mil y una noches", year: "compilación gradual, forma fijada en El Cairo, s. XVIII", enlace: "https://www.gutenberg.org/ebooks/19860"}
     siglo19:
-      - {author: "Rifa'a al-Tahtawi", work: "La extracción del oro en el resumen de París", year: "1834"}
+      - {author: "Rifa'a al-Tahtawi", work: "La extracción del oro en el resumen de París", year: "1834", enlace: "https://www.hindawi.org/books/46205086/"}
     siglo20:
       - {author: "Naguib Mahfuz", work: "Trilogía de El Cairo", year: "1956"}
       - {author: "Taha Hussein", work: "Los días", year: "1929"}
@@ -1230,7 +1230,7 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Olive Schreiner", work: "La historia de una granja africana", year: "1883"}
+      - {author: "Olive Schreiner", work: "La historia de una granja africana", year: "1883", enlace: "https://www.gutenberg.org/ebooks/1441"}
     siglo20:
       - {author: "J. M. Coetzee", work: "Desgracia", year: "1999"}
       - {author: "Alan Paton", work: "Llora, tierra amada", year: "1948"}
@@ -1302,7 +1302,7 @@
   lng: 38.7469
   writers:
     clasico:
-      - {author: "Anónimo", work: "Kebra Nagast (El libro de la gloria de los reyes)", year: "c. siglo XIV"}
+      - {author: "Anónimo", work: "Kebra Nagast (El libro de la gloria de los reyes)", year: "c. siglo XIV", enlace: "https://archive.org/details/kebranagast"}
     siglo19: []
     siglo20: []
     siglo21:
@@ -1425,7 +1425,7 @@
   writers:
     clasico: []
     siglo19:
-      - {author: "Marcus Clarke", work: "For the Term of His Natural Life", year: "1874"}
+      - {author: "Marcus Clarke", work: "For the Term of His Natural Life", year: "1874", enlace: "https://www.gutenberg.org/ebooks/3424"}
     siglo20:
       - {author: "Patrick White", work: "Voss", year: "1957"}
       - {author: "Thomas Keneally", work: "El arca de Schindler", year: "1982"}
@@ -1442,7 +1442,7 @@
     clasico: []
     siglo19: []
     siglo20:
-      - {author: "Katherine Mansfield", work: "En una pensión alemana", year: "1911"}
+      - {author: "Katherine Mansfield", work: "En una pensión alemana", year: "1911", enlace: "https://www.gutenberg.org/ebooks/1472"}
       - {author: "Keri Hulme", work: "El pueblo de los huesos (The Bone People)", year: "1984"}
       - {author: "Witi Ihimaera", work: "El jinete de la ballena", year: "1987"}
     siglo21:
